@@ -1,1 +1,0 @@
-key(ctrl-shift-tab): user.talon_restart()
