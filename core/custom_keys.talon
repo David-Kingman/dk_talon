@@ -3,10 +3,8 @@ language: en
 mode: command
 -
 
-# Custom keys
-aim: key(a)
-in: key(i)
-zone: key(z)
+# Letters [A-Z]
+{user.letter}:              key(letter)
 
 crate:
  insert(':')
