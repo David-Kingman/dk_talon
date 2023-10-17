@@ -21,3 +21,6 @@ move civil service: key(ctrl-shift-8)
 move health: key(ctrl-shift-7)
 move finances: key(ctrl-shift-6)
 move jobs: key(ctrl-shift-5)
+
+# Useful text
+hello: insert("Hi ")
