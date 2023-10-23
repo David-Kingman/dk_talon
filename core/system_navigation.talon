@@ -16,3 +16,6 @@ key(ctrl-alt-f1): tracking.zoom()
 
 # Toggle quick pick
 key(ctrl-alt-f2): user.quick_pick_show()
+
+# Go to website
+go {user.website}: user.open_url(website)

@@ -3,9 +3,6 @@ language: en
 mode: command
 -
 
-# Letters [A-Z]
-{user.letter}:              key(letter)
-
 crate:
  insert(':')
  insert(' ')
