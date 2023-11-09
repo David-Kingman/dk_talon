@@ -11,4 +11,4 @@ hello: insert("Hi ")
 goodbye:
     insert("Thanks and best wishes,")
     key("enter")
-    insert("David")
+    insert("David") 
