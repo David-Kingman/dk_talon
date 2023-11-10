@@ -1,4 +1,4 @@
-from talon import Module
+from talon import Module, app
 import shutil
 
 mod = Module()
@@ -9,5 +9,5 @@ class Actions:
         "Copies my custom files across to Talon/user"
         source_dir = r"F:/Projects/DavidKingman/dk_talon"
         destination_dir = r"C:/Users/dkingman/AppData/Roaming/talon/user/dk_talon"
-        shutil.copytree(source_dir, destination_dir, dirs_exist_ok=True)
-        print("Talon Updated")
+        shutil.copytree(source_dir, destination_dir, dirs_exist_ok=True, ignore=shutil.ignore_patterns(".git*"))
+        app.notify("Update Completed")
