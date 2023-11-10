@@ -4,6 +4,8 @@ title: /outlook.office.com/
 # Keyboard Shortcuts
 delete message: key(delete)
 new message: key(n)
+send message: key(ctrl-enter)
+flag message: key(insert)
 reply: key(r)
 reply all: key(shift-r)
 forward message: key(shift-f)
@@ -19,4 +21,5 @@ hello: insert("Hi ")
 goodbye:
     insert("Thanks and best wishes,")
     key(enter)
-    insert("David") 
+    insert("David")
+    
