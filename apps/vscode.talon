@@ -15,4 +15,4 @@ jump <user.number_string>:
 tag(): user.tabs    
 
 go bash: key(ctrl-')
-go scriptb: key(ctrl-1)
+go script: key(ctrl-1)
