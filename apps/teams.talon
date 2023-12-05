@@ -3,10 +3,8 @@ and app.name: Microsoft Teams (work or school)
 -
 
 # generics
-[go] [to] search: key(ctrl-e)
+search: key(ctrl-e)
 show commands: key(ctrl-/)
-open filter: key(ctrl-shift-f)
-go to: key(ctrl-g)
 [start] new chat: key(ctrl-n)
 open settings: key(ctrl-,)
 open help: key(f1)
@@ -17,12 +15,6 @@ open activity: key(ctrl-1)
 open chat: key(ctrl-2)
 open calendar: key(ctrl-3)
 open teams: key(ctrl-4)
-[go] [to] (prev | previous) [list] item: key(alt-up)
-[go] [to] next [list] item: key(alt-down)
-move [selected] team up: key(ctrl-shift-up)
-move [selected] team down: key(ctrl-shift-down)
-[go] [to] (prev | previous) section: key(ctrl-shift-f6)
-[go] [to] next section: key(ctrl-f6)
 
 # messaging
 [go] [to] compose [box]: key(c)
@@ -46,8 +38,8 @@ decline screen share: key(ctrl-shift-d)
 accept screen share: key(ctrl-shift-a)
 schedule [a] meeting: key(alt-shift-n)
 go to current time: key(alt-.)
-go to (prev | previous) (day | week): key(ctrl-alt-left)
-go to next (day | week): key(ctrl-alt-right)
+show last week: key(ctrl-alt-left)
+show next week: key(ctrl-alt-right)
 view day: key(ctrl-alt-1)
 view work week: key(ctrl-alt-2)
 view week: key(ctrl-alt-3)
@@ -55,7 +47,7 @@ view week: key(ctrl-alt-3)
 join [from] meeting [details]: key(alt-shift-j)
 go to suggested time: key(alt-shift-s)
 
-share entire screen: 
+share my screen: 
     key(ctrl-shift-e)
     sleep(1000ms)
     key(tab)
@@ -65,3 +57,8 @@ share entire screen:
     key(tab)
     sleep(1000ms)
     key(return)
+
+stop sharing my screen: key(ctrl-shift-e)
+
+# Useful Text
+hello: insert("Hi ")
