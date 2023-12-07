@@ -24,3 +24,12 @@ switcher: key(shift-f3)
 bullets: key(ctrl-shift-l)
 hyperlink: key(ctrl-k)
 insert table: key(alt n t i)
+
+# Tables
+next cell: key(alt-down)
+select next cell: key(tab)
+last cell: key(alt-up)
+select last cell: key(shift-tab)
+
+# Paste as plain text
+paste plain: key(ctrl-alt-v up return)
