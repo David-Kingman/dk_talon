@@ -1,5 +1,6 @@
 os: windows
 app: Microsoft word
+app: Google Chrome
 -
 
 # File Management
@@ -30,6 +31,24 @@ next cell: key(alt-down)
 select next cell: key(tab)
 last cell: key(alt-up)
 select last cell: key(shift-tab)
+next row: key(alt-down alt-down)
 
 # Paste as plain text
 paste plain: key(ctrl-alt-v up return)
+
+# Copy a Whole Line
+grab line: 
+    key(shift-end ctrl-c)
+    sleep(1000ms)
+    key(up)
+
+# Useful Text
+no: insert("No")
+
+# Grab Link
+grab link:
+    mouse_move(3750,325)
+    sleep(1000ms)
+    mouse_click(0)
+    sleep(1000ms)
+    key(tab tab return)
