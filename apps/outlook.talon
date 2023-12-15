@@ -34,10 +34,14 @@ move jobs: key(ctrl-shift-5)
 
 # Reply to invitations
 accept invite: key(shift-f10 c c enter enter)
-reject invite: key(shift-f10 c c down down enter tab tab down enter)
 
+reject invite:
+        mouse_move(3650,1050)
+        sleep(1500ms)
+        mouse_click(0)
+        
 # Useful Text
-hello: insert("Hi ")
+new graph: key(enter enter)
 
 goodbye:
     insert("Thanks and best wishes,")
