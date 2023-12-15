@@ -43,6 +43,8 @@ reject invite:
 # Useful Text
 new graph: key(enter enter)
 
+dasher: insert(" - ")
+
 goodbye:
     insert("Thanks and best wishes,")
     key(enter)
