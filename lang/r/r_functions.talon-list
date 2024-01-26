@@ -1,0 +1,6 @@
+list: user.r_functions
+-
+
+mutate
+filter
+select
