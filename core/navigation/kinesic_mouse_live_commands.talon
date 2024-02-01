@@ -5,5 +5,6 @@ mouse toggle: key(ctrl-alt-1)
 key(ctrl-alt-f1): tracking.zoom()
 
 # Change profiles
-scroll mouse: key(ctrl-alt-4)
+eye mouse: key(ctrl-alt-2)
 full mouse: key(ctrl-alt-3)
+scroll mouse: key(ctrl-alt-4)
