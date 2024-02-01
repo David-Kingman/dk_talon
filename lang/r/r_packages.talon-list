@@ -24,7 +24,7 @@ shiny browser: shinybrowser
 dev tools: devtools
 # Publication
 R markdown: rmarkdown
-quarto: quarto
+quarto
 knitter: knitr
 cable: kable
 # Data visualization
@@ -36,7 +36,8 @@ dt: DT
 # Data engineering
 arrow
 open excel: openxlsx
-collapse: collapse
+collapse
 # Other
 here
 git two are: git2r
+rev: renv

@@ -1,6 +1,158 @@
 list: user.r_functions
 -
 
+# base R functions
+library
+install packages: install.packages
+vector: c
+list
+names
+as character: as.character
+as double: as.double
+as numeric: as.numeric
+as integer: as.integer
+as factor: as.factor
+as date: as.Date
+min
+mean
+median
+max
+length
+count
+describe
+summary
+sum
+head
+tail
+
+
+as character: as.character",
+   
+
+    "base read RDS": "readRDS",
+    "base save RDS": "saveRDS",
+    "cable": "kable",
+    "correlation": "cor",
+    "count": "count",
+    "covariance": "cov",
+    "describe": "describe",
+    "eigen": "eigen",
+    "ex table": "xtable",
+    "get working directory": "getwd",
+    "head": "head",
+    "if else": "ifelse",
+    "install packages": "install.packages",
+    "is NA": "is.na",
+    "is not NA": "!is.na",
+    "length": "length",
+    "library": "library",
+    "list files": "list.files",
+    "list": "list",
+    "lm": "lm",
+    "log": "log",
+    "make directory": "dir.create",
+    
+
+    "paste": "paste0",
+    "print": "print",
+    "reorder": "reorder",
+    "repeat": "rep",
+    "scale": "scale",
+    "sequence along": "seq_along",
+    "sequence length": "seq_len",
+    "sequence": "seq",
+    "set working directory": "setwd",
+    "sort": "sort",
+    "subset": "subset",
+   
+   
+    "tail": "tail",
+    "tidy": "tidy",
+    "trim white space": "trimws",
+    "type": "typeof",
+    "unique": "unique",
+    "vector": "c",
+    "vee table": "vtable",
+    "view": "View",p
+# dplyr functions
 mutate
 filter
 select
+summarize
+    "anti join": "anti_join",
+    "arrange": "arrange",
+    "as tibble": "as_tibble",
+    "bind rows": "bind_rows",
+    "case when": "case_when",
+    "distinct": "distinct",
+    "everything": "everything",
+    
+    "full join": "full_join",
+    "glimpse": "glimpse",
+    "group by": "group_by",
+    "inner join": "inner_join",
+    "left join": "left_join",
+    
+    "pull": "pull",
+    "rename all": "rename_all",
+    "rename": "rename",
+    "right join": "right_join",
+    "select all": "select_all",
+    
+    "semi join": "semi_join",
+    "starts with": "starts_with",
+
+    "tibble": "tibble",
+    "ungroup": "ungroup",
+
+# base R
+
+    # dplyr
+
+    # ggplot2
+    "coord cartesian": "coor_cartesian",
+    "element text": "element_text",
+    "element blank": "element_blank",
+    "facet grid": "facet_grid",
+    "facet wrap": "facet_wrap",
+    "geom A B line": "geom_abline",
+    "geom area": "geom_area",
+    "geom bar": "geom_bar",
+    "geom boxplot": "geom_boxplot",
+    "geom histogram": "geom_histogram",
+    "geom horizontal line": "geom_hline",
+    "geom line": "geom_line",
+    "geom point": "geom_point",
+    "geom pointrange": "geom_pointrange",
+    "geom polygon": "geom_polygon",
+    "geom ribbon": "geom_ribbon",
+    "geom segment": "geom_segment",
+    "geom smooth": "geom_smooth",
+    "geom vertical line": "geom_vline",
+    "geom violin": "geom_violin",
+    "labs": "labs",
+    "scale colour manual": "scale_colour_manual",
+    "scale fill manual": "scale_fill_manual",
+    "scale fill viridis": "scale_fill_viridis_c",
+    "scale colour viridis": "scale_colour_viridis_c",
+    "theme set": "theme_set",
+    # purrr
+    "map character": "map_chr",
+    "map data frame": "map_dfr",
+    "map double": "map_dbl",
+    "map": "map",
+    "P map": "pmap",
+    # stringr
+    "string contains": "str_detect",
+    "string detect": "str_detect",
+    "string replace all": "str_replace_all",
+    "string replace": "str_replace",
+    # tidyr
+    "drop NA": "drop_na",
+    "gather": "gather",
+    "nest": "nest",
+    "pivot longer": "pivot_longer",
+    "pivot wider": "pivot_wider",
+    "spread": "spread",
+    "un nest": "unnest",
+ 
