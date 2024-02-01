@@ -1,0 +1,43 @@
+list: user.r_packages
+-
+
+# Tidyverse
+tidy verse: tidyverse
+D plier: dplyr
+gee gee plot: ggplot2
+lubridate: lubridate
+purrr
+tidier: tidyr
+read R: readr
+glue
+# Shiny
+shiny
+shiny alert: shinyalert
+bs four dash: bs4Dash
+intro js: rintrojs
+shiny widgets: shinyWidgets
+shiny busy: shinybusy
+shiny alert: shinyalert
+shiny js: shinyjs
+shiny browser: shinybrowser
+# Package development
+dev tools: devtools
+# Publication
+R markdown: rmarkdown
+quarto
+knitter: knitr
+cable: kable
+# Data visualization
+R color brewer: RColorBrewer
+viridis: viridis
+scales
+giraffe: ggiraph
+dt: DT
+# Data engineering
+arrow
+open excel: openxlsx
+collapse
+# Other
+here
+git two are: git2r
+rev: renv

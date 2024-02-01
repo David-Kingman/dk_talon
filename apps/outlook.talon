@@ -39,11 +39,15 @@ reject invite:
         mouse_move(3650,1050)
         sleep(1500ms)
         mouse_click(0)
+        sleep(1500ms)
+        key(down down enter)
         
+# Teams Meetings
+new meeting: 
+        key(alt h y enter)
+
 # Useful Text
 new graph: key(enter enter)
-
-dasher: insert(" - ")
 
 goodbye:
     insert("Thanks and best wishes,")
