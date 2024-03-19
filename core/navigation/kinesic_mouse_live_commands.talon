@@ -1,5 +1,5 @@
 # Activate/deactive Kinesic Mouse (regardless of current profile)
-mouse toggle: key(ctrl-alt-1)
+mouse toggle: key(ctrl-f2)
 
 # Trigger Zoom Mouse
 key(ctrl-alt-f1): tracking.zoom()
