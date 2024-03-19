@@ -9,7 +9,5 @@ crate:
 
 cod: insert("ctrl")
 
-trash: key(backspace) 
-
-bend: edit.line_start()
-lend: edit.line_end()
+stinger: edit.line_start()
+lender: edit.line_end()
