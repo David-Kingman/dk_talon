@@ -15,3 +15,4 @@ mode: dictation
 # we don't do anything with the <phrase> in the body of the command.
 
 ^drowse[<phrase>]$: speech.disable()
+key(ctrl-f1): speech.disable()
