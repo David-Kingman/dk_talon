@@ -31,24 +31,8 @@ move civil service: key(ctrl-shift-8)
 # move health: key(ctrl-shift-7)
 # move finances: key(ctrl-shift-6)
 # move jobs: key(ctrl-shift-5)
-
-# Reply to invitations
-accept invite: key(shift-f10 c c enter enter)
-
-reject invite:
-        mouse_move(3650,1050)
-        sleep(1500ms)
-        mouse_click(0)
-        sleep(1500ms)
-        key(down down enter)
         
-# Teams Meetings
-new meeting: 
-        key(alt h y enter)
-
 # Useful Text
-new graph: key(enter enter)
-
 goodbye:
     insert("Thanks and best wishes,")
     key(enter)
