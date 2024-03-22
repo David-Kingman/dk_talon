@@ -3,17 +3,26 @@ language: en
 mode: command
 -
 
-crate:
- insert(':')
- insert(' ')
-
+# Abbreviations
+crate: insert(': ')
 cod: insert("ctrl")
 
-# Go line start
-stinger: edit.line_start()
+# Line spacing commands
+new graph: key(enter enter)
+new space: key(enter enter enter up)
+new void: key(enter enter up)
 
-# Go line end
-lender: edit.line_end()
+# Go left
+lefty: edit.left()
+
+# Go right
+righty: edit.right()
+
+# Go up
+upper: edit.up()
+
+# Go down
+downer: edit.down()
 
 # Go word left 
 lifter: edit.word_left()
@@ -36,3 +45,32 @@ cleaver:
 baker:
     edit.extend_word_right()
     edit.delete()
+
+# new sentence
+sent <user.prose>$: 
+    user.add_phrase_to_history(prose)
+    user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
+
+# dot space sentence
+dollar <user.prose>$: 
+    user.add_phrase_to_history(prose)
+    insert(". ")
+    user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
+
+# comma space say
+congo <user.prose>$:
+    user.add_phrase_to_history(prose)
+    insert(", ")
+    insert(prose)
+
+# space say
+spanner <user.prose>$:
+    user.add_phrase_to_history(prose)
+    insert(" ")
+    insert(prose)
+
+# dash space say
+dongle <user.prose>$:
+    user.add_phrase_to_history(prose)
+    insert(" - ")
+    insert(prose)
