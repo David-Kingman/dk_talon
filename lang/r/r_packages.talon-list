@@ -41,3 +41,6 @@ collapse
 here
 git two are: git2r
 rev: renv
+# Text mining
+tidy text: tidytext
+Gutenberg are: gutenbergr

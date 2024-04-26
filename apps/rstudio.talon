@@ -13,4 +13,3 @@ go line <user.number_string> :
     insert(number_string)
     key(enter)
     
-  

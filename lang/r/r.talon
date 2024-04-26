@@ -15,7 +15,9 @@ library {user.r_packages}:
     insert(end)
 
 # General commands
-{user.r_functions}: insert(r_functions + "(")
+funk {user.r_functions}: insert(r_functions + "(")
+    
+assign that: insert(" <- ")
 
 # R specific commands
 are pipe:
