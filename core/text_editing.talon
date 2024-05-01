@@ -25,16 +25,19 @@ upper: edit.up()
 downer: edit.down()
 
 # Go word left 
-lifter: edit.word_left()
+lima: edit.word_left()
 
 # Go word right
-writer: edit.word_right()
+romeo: edit.word_right()
 
 # Select word left
 tinker: edit.extend_word_left()
 
 # Select word right
 ranger: edit.extend_word_right()
+
+# Clear word
+trash: edit.delete_word()
 
 # Clear word left
 cleaver:
@@ -45,6 +48,15 @@ cleaver:
 baker:
     edit.extend_word_right()
     edit.delete()
+
+# Select text
+grab <user.prose_range>$: user.perform_ocr_action("select", "", prose_range)
+
+# Go before text
+bravo <user.timestamped_prose>$: user.move_text_cursor_to_word(timestamped_prose, "before")
+
+# Go after text
+alpha <user.timestamped_prose>$: user.move_text_cursor_to_word(timestamped_prose, "after")
 
 # new sentence
 sent <user.prose>$: 
@@ -74,3 +86,9 @@ dongle <user.prose>$:
     user.add_phrase_to_history(prose)
     insert(" - ")
     insert(prose)
+
+# question mark space new sentence
+quest <user.prose>$: 
+    user.add_phrase_to_history(prose)
+    insert("? ")
+    user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
