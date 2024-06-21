@@ -1,0 +1,15 @@
+list: user.git_functions
+-
+
+list files: ls
+change folder: cd
+change branch: git checkout
+new branch: git checkout -b
+show branches: git branch
+stage: git stage
+stage all: git stage .
+commit: git commit -m
+merge: git merge
+push: git push 
+pull: git pull
+remove file: git rm

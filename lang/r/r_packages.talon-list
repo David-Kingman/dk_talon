@@ -10,6 +10,9 @@ purrr
 tidier: tidyr
 read R: readr
 glue
+# Statistics
+survey
+survey are: srvyr
 # Shiny
 shiny
 shiny alert: shinyalert
@@ -33,14 +36,17 @@ viridis: viridis
 scales
 giraffe: ggiraph
 dt: DT
+show text: showtext
 # Data engineering
+haven
 arrow
 open excel: openxlsx
 collapse
 # Other
 here
 git two are: git2r
-rev: renv
+renv
+lamda: LMDAR
 # Text mining
 tidy text: tidytext
 Gutenberg are: gutenbergr

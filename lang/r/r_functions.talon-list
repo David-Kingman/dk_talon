@@ -14,6 +14,7 @@ as numeric: as.numeric
 as integer: as.integer
 as factor: as.factor
 as date: as.Date
+factor
 # programming
 get working directory: getwd
 set working directory: setwd
@@ -30,6 +31,7 @@ repeat: rep
 sequence: seq
 sort: sort
 unique: unique
+function
 # statistics
 min
 mean
@@ -46,11 +48,21 @@ core: cor
 covariance: cov
 lm
 log: log
+round
+# renv
+init
+snapshot
+restore
+status
+update
+install
 # dplyr
 mutate
 filter
 select
 summarize
+contains
+across
 anti join: anti_join
 arrange: arrange
 as tibble: as_tibble
@@ -61,26 +73,33 @@ everything: everything
 full join: full_join
 glimpse: glimpse
 group by: group_by
+group split: group_split
 inner join: inner_join
 left join: left_join
 pull: pull
 rename all: rename_all
-rename: rename
+rename
+rename with: rename_with
 right join: right_join
 select all: select_all
 semi join: semi_join
 starts with: starts_with
+ends with: ends_with
 tibble: tibble
 ungroup: ungroup
 # ggplot2
+GG plot: ggplot
+aesthetics: aes
 coord cartesian: coor_cartesian
 element text: element_text
 element blank: element_blank
+element line: element_line
 facet grid: facet_grid
 facet wrap: facet_wrap
 geom A B line: geom_abline
 geom area: geom_area
 geom bar: geom_bar
+geom column: geom_col
 geom boxplot: geom_boxplot
 geom histogram: geom_histogram
 geom horizontal line: geom_hline
@@ -93,22 +112,31 @@ geom segment: geom_segment
 geom smooth: geom_smooth
 geom vertical line: geom_vline
 geom violin: geom_violin
-labs: labs
 scale colour manual: scale_colour_manual
 scale fill manual: scale_fill_manual
 scale fill viridis: scale_fill_viridis_c
 scale colour viridis: scale_colour_viridis_c
 theme set: theme_set
+labs
+theme
+unit
+ex lab: xlab
+why lab: ylab
+GG title: ggtitle
+GG save: ggsave
 # purrr
 map character: map_chr
 map data frame: map_dfr
 map double: map_dbl
 map: map
+I map: imap
 P map: pmap
 # stringr
 string detect: str_detect
 string replace all: str_replace_all
 string replace: str_replace
+string to title: str_to_title
+string split: str_split
 # tidyr
 drop NA: drop_na
 gather: gather
@@ -119,3 +147,14 @@ spread: spread
 un nest: unnest
 # readr
 read de limb: read_delim
+read CSV: read_csv
+read are: read_rds
+right are: write_rds
+# haven
+read sass: read_sas
+# here
+here
+# srvyr
+as survey design: as_survey_design
+survey total: survey_total
+survey mean: survey_mean

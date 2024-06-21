@@ -36,11 +36,8 @@ tinker: edit.extend_word_left()
 # Select word right
 ranger: edit.extend_word_right()
 
-# Clear word
-trash: edit.delete_word()
-
 # Clear word left
-cleaver:
+chopper:
     edit.extend_word_left()
     edit.delete()
 
@@ -91,4 +88,10 @@ dongle <user.prose>$:
 quest <user.prose>$: 
     user.add_phrase_to_history(prose)
     insert("? ")
+    user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
+
+# comments
+comment <user.prose>$: 
+    insert("# ")
+    user.add_phrase_to_history(prose)
     user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")

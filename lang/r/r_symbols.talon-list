@@ -1,3 +1,19 @@
 list: user.r_symbols
 -
 
+assign: <-
+is in: %in%
+equals: =
+is equal: ==
+tile: ~
+plus: +
+minus: -
+divide: /
+star: *
+and: &
+missing: NA
+null: NULL
+true: TRUE
+false: FALSE
+greater than: >
+less than: <

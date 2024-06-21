@@ -11,23 +11,62 @@ add package {user.r_packages}:
     
 library {user.r_packages}:
     start = "library(" + r_packages
-    end = start + ")"
+    end = sbtart + ")"
     insert(end)
 
-# General commands
-funk {user.r_functions}: insert(r_functions + "(")
-    
-assign that: insert(" <- ")
+pack {user.r_packages}:
+    string = r_packages + "::"
+    insert(string)
 
-# R specific commands
-are pipe:
+# List commands
+funk {user.r_functions}: insert(r_functions + "(")
+
+pam {user.r_function_arguments}: insert(r_function_arguments + " = ")
+
+{user.r_symbols}: 
+    start = " " + r_symbols
+    end = start + " "
+    insert(end)
+
+sign {user.r_symbols}: insert(r_symbols) 
+    
+help {user.r_functions}: insert("?" + r_functions)
+
+help {user.r_packages}: insert("?" + r_packages)
+
+# Special R symbols/code blocks
+rare pipe:
     key(end)
     key(space)
     "|>"
     key(enter)
 
-is in: " %in% "
+mag pipe:
+    key(end)
+    key(space)
+    "%>%"
+    key(enter)
 
-state na: insert("NA")
+plot pipe:
+    key(end)
+    key(space)
+    "+"
+    key(enter)
 
-foo: insert("foo")
+next: 
+    insert(",")
+    key(enter)
+
+after: insert(", ")
+
+clear everything: insert("rm(list = ls())")
+
+print all: insert("|> print(n = Inf)")
+ 
+new function:
+    insert("function() {}")
+    key(left left left left)
+
+# Git bash
+{user.git_functions}: 
+    insert(git_functions + " ")
