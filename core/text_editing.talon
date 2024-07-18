@@ -36,6 +36,9 @@ tinker: edit.extend_word_left()
 # Select word right
 ranger: edit.extend_word_right()
 
+# Clear line
+torch: edit.delete_line()
+
 # Clear word left
 chopper:
     edit.extend_word_left()
@@ -92,6 +95,6 @@ quest <user.prose>$:
 
 # comments
 comment <user.prose>$: 
-    insert("# ")
     user.add_phrase_to_history(prose)
+    insert("# ")
     user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
