@@ -63,6 +63,7 @@ select
 summarize
 contains
 across
+matches
 anti join: anti_join
 arrange: arrange
 as tibble: as_tibble
@@ -87,6 +88,12 @@ starts with: starts_with
 ends with: ends_with
 tibble: tibble
 ungroup: ungroup
+slice
+slice head: slice_head
+slice tail: slice_tail
+slice sample: slice_sample
+slice max: slice_max
+slice min: slice_min
 # ggplot2
 GG plot: ggplot
 aesthetics: aes
@@ -137,6 +144,7 @@ string replace all: str_replace_all
 string replace: str_replace
 string to title: str_to_title
 string split: str_split
+string extract: str_extract
 # tidyr
 drop NA: drop_na
 gather: gather
@@ -158,3 +166,5 @@ here
 as survey design: as_survey_design
 survey total: survey_total
 survey mean: survey_mean
+# scales
+label wrap: label_wrap

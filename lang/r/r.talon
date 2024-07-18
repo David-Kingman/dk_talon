@@ -11,7 +11,7 @@ add package {user.r_packages}:
     
 library {user.r_packages}:
     start = "library(" + r_packages
-    end = sbtart + ")"
+    end = start + ")"
     insert(end)
 
 pack {user.r_packages}:
