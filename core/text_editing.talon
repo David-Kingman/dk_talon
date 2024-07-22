@@ -40,7 +40,7 @@ ranger: edit.extend_word_right()
 torch: edit.delete_line()
 
 # Clear word left
-chopper:
+zip:
     edit.extend_word_left()
     edit.delete()
 
