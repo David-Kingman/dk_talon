@@ -1,0 +1,35 @@
+list: user.punctuation
+language: en
+-
+
+# Custom key commands for using while dictating in a flow of text
+
+# General
+full stop: .
+comma: ,
+colon: :
+semicolon: ;
+question mark: ?
+slash: /
+ampersand: &
+exclamation mark: !
+underscore: _
+# Quotes
+single quote: "'"
+dub quote: '"'
+double quote: '"'
+apostrophe: "'"
+back tick: "`"
+# Brackets
+L paren: (
+right paren: )
+smile: (
+frown: )
+left curly: {
+right curly: }
+left square: [
+right square: ]
+# Currencies
+dollar sign: $
+pound sign: £
+ 

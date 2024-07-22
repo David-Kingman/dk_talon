@@ -1,0 +1,54 @@
+list: user.symbol_key
+language: en
+-
+
+# Custom key commands for use in command mode when not dictating a flow of text.
+
+# General
+dot: .
+comma: ,
+colon: :
+semicolon: ;
+question mark: ?
+slash: /
+backslash: \
+hash: #
+at sign: @
+ampersand: &
+pipe: |
+tile: ~  
+bang: !
+underscore: _
+# Quotes
+single quote: "'"
+dub quote: '"'
+double quote: '"'
+apostrophe: "'"
+back tick: "`"
+# Maths
+minus: -
+dash: -
+equals: =
+plus: +
+star: *
+percent: %
+caret: ^
+greater than: >
+less than: <
+# Brackets
+paren: (
+curly: {
+square: [
+angle: <
+L paren: (
+right paren: )
+smile: (
+frown: )
+left curly: {
+right curly: }
+left square: [
+right square: ]
+# Currencies
+dollar sign: $
+pound sign: £
+ 
