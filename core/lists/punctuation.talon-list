@@ -7,6 +7,7 @@ language: en
 # General
 full stop: .
 comma: ,
+coma: ,
 colon: :
 semicolon: ;
 question mark: ?
