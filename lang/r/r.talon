@@ -1,6 +1,8 @@
 os: windows
 language: en
-code.language: r
+app: Remote Desktop
+app: rstudio
+app: vscode
 -
 
 # Package commands
@@ -35,7 +37,7 @@ help {user.r_functions}: insert("?" + r_functions)
 help {user.r_packages}: insert("?" + r_packages)
 
 # Special R symbols/code blocks
-rare pipe:
+chain:
     key(end)
     key(space)
     "|>"
@@ -66,7 +68,3 @@ print all: insert("|> print(n = Inf)")
 new function:
     insert("function() {}")
     key(left left left left)
-
-# Git bash
-{user.git_functions}: 
-    insert(git_functions + " ")
