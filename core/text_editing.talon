@@ -49,6 +49,33 @@ baker:
     edit.extend_word_right()
     edit.delete()
 
+# Clear way left
+clean left:
+    edit.extend_line_start()
+    edit.delete()
+
+# Clear way right
+clean right:
+    edit.extend_line_end()
+    edit.delete()
+
+# Clear way up
+clean up:
+    edit.extend_file_start()
+    edit.delete()
+
+# Clear way down
+clean down:
+    edit.extend_file_end()
+    edit.delete()
+    
+# Title format and wrap text in quotes
+strung <user.prose>$: 
+    insert('"')
+    user.add_phrase_to_history(prose)
+    user.insert_formatted(prose, "CAPITALIZE_ALL_WORDS")
+    insert('"') 
+
 # Select text
 grab <user.prose_range>$: user.perform_ocr_action("select", "", prose_range)
 
@@ -57,6 +84,18 @@ bravo <user.timestamped_prose>$: user.move_text_cursor_to_word(timestamped_prose
 
 # Go after text
 alpha <user.timestamped_prose>$: user.move_text_cursor_to_word(timestamped_prose, "after")
+
+# Undo
+nope: edit.undo()
+
+# Cut
+cut: edit.cut()
+
+# Copy
+copy: edit.copy()
+
+# Paste
+paste: edit.paste()
 
 # new sentence
 sent <user.prose>$: 
@@ -94,7 +133,7 @@ quest <user.prose>$:
     user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
 
 # comments
-comment <user.prose>$: 
+bail <user.prose>$: 
     user.add_phrase_to_history(prose)
     insert("# ")
     user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
