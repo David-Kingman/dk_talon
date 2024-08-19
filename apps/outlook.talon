@@ -1,21 +1,41 @@
 os: windows
-and app: Microsoft Outlook
+mode: command
+app: Microsoft Outlook
 -
 
 # Navigation
 go inbox: key(ctrl-1)
 go calendar: key(ctrl-2)
 
+# Searching
+find <user.text>$:
+    key(alt-q)
+    sleep(500ms)
+    edit.delete_line()
+    insert(text)
+    key(enter)
+
+clear: 
+    mouse_move(39, 205)
+    sleep(1500ms)
+    mouse_click(0)
+
 # Sending and receiving
 new message: key(ctrl-n)
 send message: key(ctrl-enter)
-delete message: key(delete)
 chuck: key(delete)
-discard that: key(escape)
 reply: key(ctrl-r)
-reply all: key(ctrl-shift-r)
+reply everyone: key(ctrl-shift-r)
 forward: key(ctrl-f)
-flag message: key(insert)
+flag: key(insert)
+
+# Clear word left
+zip: key(ctrl-backspace)
+
+# Clear word right
+baker: key(ctrl-delete)
+
+# Formatting commands
 insert link: key(ctrl-k)
 bold that: key(ctrl-b)
 underline that: key(ctrl-u)
@@ -32,10 +52,38 @@ file civil service: key(ctrl-shift-8)
 # move health: key(ctrl-shift-7)
 # move finances: key(ctrl-shift-6)
 # move jobs: key(ctrl-shift-5)
-        
+
+# Chose email address
+{user.address_book} email:
+    insert(address_book)
+    sleep(500ms)
+    key(enter)
+    
 # Useful Text
+subject <user.prose>$: 
+    key(tab tab tab)
+    sleep(100ms)
+    user.add_phrase_to_history(prose)
+    user.insert_formatted(prose, "CAPITALIZE_ALL_WORDS")
+    key(tab)
+
+high <user.prose>$: 
+    user.add_phrase_to_history(prose)
+    insert("Hi ")
+    user.insert_formatted(prose, "CAPITALIZE_ALL_WORDS")
+    insert(",")
+    key(enter enter)
+
+low <user.prose>$: 
+    key(tab tab tab tab)
+    user.add_phrase_to_history(prose)
+    insert("Hi ")
+    user.insert_formatted(prose, "CAPITALIZE_ALL_WORDS")
+    insert(",")
+    key(enter enter)
+
 goodbye:
+    key(enter enter)
     insert("Thanks and best wishes,")
     key(enter)
     insert("David")
-     

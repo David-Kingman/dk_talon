@@ -1,22 +1,30 @@
 os: windows
+mode: command
 app: remote desktop
-app: visual studio code
+app: vscode
 -
-# Some of these commands depend on customized key mappings in the keybindings.json file
 
-# File Management
-new file: key(ctrl-n)
-save file: key(ctrl-s)
-close file: key(ctrl-f4)
+# Implement tags
+tag(): user.tabs
+
+# Search files
+find [<user.text>]:
+    user.vscode("workbench.action.quickOpen")
+    sleep(50ms)
+    insert(text or "")
+
+find (pace | paste):
+    user.vscode("workbench.action.quickOpen")
+    sleep(50ms)
+    edit.paste()
 
 # Navigation
+puff <number>:
+    edit.jump_line(number)
+    sleep(50ms)
+    key(enter enter up)
 
-jump <user.number_string>:
-    key(ctrl-g)
-    insert(number_string)
-    key(return)
-    
-tag(): user.tabs    
-
-go bash: key(ctrl-')
-go script: key(ctrl-1)
+space <number>:
+    edit.jump_line(number)
+    sleep(50ms)
+    key(enter)

@@ -47,7 +47,7 @@ no: insert("No")
 
 # Grab Link
 grab link:
-    mouse_move(3750,325)
+    mouse_move(3729, 430)
     sleep(1000ms)
     mouse_click(0)
     sleep(1000ms)
