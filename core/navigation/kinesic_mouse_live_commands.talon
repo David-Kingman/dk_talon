@@ -1,8 +1,15 @@
+os: windows
+and not mode: sleep
+-
+
 # Activate/deactive Kinesic Mouse (regardless of current profile)
 mouse toggle: key(ctrl-f2)
 
 # Trigger Zoom Mouse
 key(ctrl-alt-f1): tracking.zoom()
+
+# Toggle between zoom mouse and control mouse
+key(ctrl-shift-f8): user.mouse_toggle()
 
 # Change profiles
 eye mouse: key(ctrl-alt-2)
