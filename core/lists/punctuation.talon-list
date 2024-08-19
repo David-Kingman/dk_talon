@@ -6,24 +6,22 @@ language: en
 
 # General
 full stop: .
+dot: .
 comma: ,
 coma: ,
 colon: :
 semicolon: ;
-question mark: ?
+quest: ?
 slash: /
 ampersand: &
 exclamation mark: !
 underscore: _
+dash: " - "
 # Quotes
-single quote: "'"
-dub quote: '"'
-double quote: '"'
+quad: ' "'
+end quad: '" '
 apostrophe: "'"
-back tick: "`"
 # Brackets
-L paren: (
-right paren: )
 smile: (
 frown: )
 left curly: {
@@ -33,4 +31,3 @@ right square: ]
 # Currencies
 dollar sign: $
 pound sign: £
- 

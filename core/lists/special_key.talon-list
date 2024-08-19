@@ -1,0 +1,18 @@
+language: en
+list: user.special_key
+-
+
+end
+enter
+zinc: enter
+escape
+home
+insert
+pagedown
+pageup
+space
+tab
+wipe: backspace
+forward delete: delete
+page up: pageup
+page down: pagedown

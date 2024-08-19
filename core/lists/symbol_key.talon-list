@@ -23,6 +23,7 @@ underscore: _
 single quote: "'"
 dub quote: '"'
 double quote: '"'
+quad: '"'
 apostrophe: "'"
 back tick: "`"
 # Maths

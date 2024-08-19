@@ -1,0 +1,7 @@
+list: user.file_extensions
+-
+
+talon
+talon list: talon-list
+rare: R
+pie: py
