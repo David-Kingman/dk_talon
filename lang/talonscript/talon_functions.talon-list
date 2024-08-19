@@ -1,0 +1,10 @@
+list: user.talon_functions
+-
+
+key
+insert
+sleep
+mouse move: mouse_move
+mouse scroll: mouse_scroll
+mouse click: mouse_click
+notify: app.notify
