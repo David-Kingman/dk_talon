@@ -1,0 +1,530 @@
+<XY_SETTINGS version="1.1">
+	<SETTINGS id="common">
+		<ENTRY id="Application" all_paused="false" do_not_show_basics_tutorial="true"/>
+		<ENTRY id="Profiles" play_sound_on_profile_switch="false" current_profile="scroll_mouse"/>
+		<ENTRY id="ProfileSwitch.Nr0" signal="NONE" threshold="50.000000" timeout="0.000000"/>
+		<ENTRY id="ProfileSwitch.Nr1" signal="NONE" threshold="50.000000" timeout="0.000000"/>
+		<ENTRY id="ProfileSwitch.Nr2" signal="NONE" threshold="50.000000" timeout="0.000000"/>
+		<ENTRY id="ProfileSwitch.Nr3" signal="NONE" threshold="50.000000" timeout="0.000000"/>
+		<ENTRY id="ProfileSwitch.Nr4" signal="NONE" threshold="50.000000" timeout="0.000000"/>
+		<ENTRY id="Network" ip="192.168.1.86" port="11111"/>
+		<ENTRY id="Shortcut_0" modifiers="Ctrl" virtual_code="113" scan_code="60"/>
+		<ENTRY id="Shortcut_1" modifiers="Alt" virtual_code="50" scan_code="3"/>
+		<ENTRY id="KinesicDeviceGlobal" use_advanced_head_rotation_filter="true"/>
+		<ENTRY id="SignalsGroup.Nr0" view_expanded="false"/>
+		<ENTRY id="SignalsGroup.Nr1" view_expanded="true"/>
+		<ENTRY id="SignalsGroup.Nr2" view_expanded="false"/>
+		<ENTRY id="SignalsGroup.Nr3" view_expanded="false"/>
+		<ENTRY id="SignalsGroup.Nr4" view_expanded="false"/>
+		<ENTRY id="SignalsGroup.Nr5" view_expanded="true"/>
+		<ENTRY id="SignalsGroup.Nr6" view_expanded="false"/>
+	</SETTINGS>
+	<SETTINGS id="basic">
+		<ENTRY id="Mode">CONTINOUS_MODE</ENTRY>
+		<ENTRY id="RelativeMode" horizontal_speed="29.000000" vertical_speed="29.000000" acceleration_exponent="30.000004" acceleration_sensitivty="39.000004" acceleration_enabled="false" continous_move="false" continous_horizontal_speed="50.000000" continous_vertical_speed="50.000000" suppression_signal="NONE" suppression_threshold="50.000000"/>
+		<ENTRY id="ContinousMode" acceleration="30.000002" horizontal_speed="28.000000" vertical_speed="28.000000" up_signal="RotationUp" down_signal="RotationDown" left_signal="RotationLeft" right_signal="RotationRight"/>
+		<ENTRY id="MouseWheel" up_signal="TiltLeft" down_signal="TiltRight" acceleration="13.000000" speed="46.000000" enabled="false"/>
+		<ENTRY id="Center" rotation_X="0.000000" rotation_Y="0.000000" rotation_Z="0.000000" translation_X="0.000000" translation_Y="0.000000" translation_Z="800.000000"/>
+		<ENTRY id="LeftClick" signal="MouthSmileLeft" threshold="50.000000" split="false"/>
+		<ENTRY id="RightClick" signal="MouthSmileRight" threshold="50.000000" split="false"/>
+		<ENTRY id="DoubleClick" signal="MouthPucker" threshold="50.000000" split="false"/>
+		<ENTRY id="ClickAndDrag" signal="NONE" threshold="50.000000" split="false"/>
+		<ENTRY id="MiddleClick" signal="NONE" threshold="50.000000" split="false"/>
+		<ENTRY id="SignalSetting.FPS" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.Tracking" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.RotationX" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.RotationY" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.RotationZ" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.RotationUp" lower_bound="0.100000" upper_bound="22.575001" mean="25" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.RotationDown" lower_bound="0.100000" upper_bound="22.575001" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.RotationLeft" lower_bound="0.100000" upper_bound="29.767002" mean="25" visualize="true" inverted="false"/>
+		<ENTRY id="SignalSetting.RotationRight" lower_bound="0.100000" upper_bound="29.767002" mean="1" visualize="true" inverted="false"/>
+		<ENTRY id="SignalSetting.TiltLeft" lower_bound="9.989000" upper_bound="29.767002" mean="5" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.TiltRight" lower_bound="9.989000" upper_bound="29.767002" mean="3" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.TranslationX" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.TranslationY" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.TranslationZ" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.TranslationLeft" lower_bound="1.000000" upper_bound="150.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.TranslationRight" lower_bound="1.000000" upper_bound="150.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.TranslationUp" lower_bound="1.000000" upper_bound="150.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.TranslationDown" lower_bound="1.000000" upper_bound="150.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.TranslationForward" lower_bound="1.000000" upper_bound="150.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.TranslationBackward" lower_bound="1.000000" upper_bound="150.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.EyeBlinkLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.EyeBlinkRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.EyesSquint" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeSquintLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.EyeSquintRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.EyesLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.EyesRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.EyesUp" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.EyesDown" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.EyesWide" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeWideLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.EyeWideRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.BrowsDown" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowDownLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.BrowDownRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.BrowInnerUp" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.BrowsUp" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowUpLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.BrowUpRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.JawForward" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.JawLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.JawOpen" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.JawRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthFrown" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthFrownLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthFrownRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthSmileLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthSmileRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthDimple" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthDimpleLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthDimpleRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthStretch" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthStretchLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthStretchRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthRoll" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthRollUpper" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthRollLower" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthUpperUp" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthUpperUpLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthUpperUpRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthLowerDown" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthLowerDownLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthLowerDownRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthShrugUpper" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthShrugLower" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthFunnel" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthPucker" lower_bound="0.000000" upper_bound="1.000000" mean="4" visualize="true" inverted="false"/>
+		<ENTRY id="SignalSetting.NoseSneer" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.CheekPuff" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.CheekSquintLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.CheekSquintRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthPress" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthPressLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthPressRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthClose" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.NoseSneerLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.NoseSneerRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.TongueOut" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.EyesBlink" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="SignalSetting.MouthSmile" lower_bound="0.000000" upper_bound="1.000000" mean="1" visualize="false" inverted="false"/>
+		<ENTRY id="RecenterSettings" signal="NONE" threshold="50.000000" dwell_time="0.000000" play_sound_notification="false" enabled="false"/>
+		<ENTRY id="Joystick.S0" signal="RotationLeft" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S1" signal="RotationRight" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S2" signal="RotationUp" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S3" signal="RotationDown" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S4" signal="TiltLeft" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S5" signal="TiltRight" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S6" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S7" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S8" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S9" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S10" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S11" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S12" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S13" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S14" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S15" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S16" signal="MouthSmileLeft" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S17" signal="MouthSmileRight" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S18" signal="MouthPucker" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S19" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S20" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S21" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S22" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S23" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S24" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S25" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S26" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S27" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S28" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S29" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S30" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S31" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S32" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S33" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S34" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S35" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S36" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S37" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S38" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S39" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S40" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S41" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S42" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S43" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S44" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S45" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S46" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S47" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S48" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S49" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S50" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S51" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S52" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S53" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S54" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S55" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S56" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S57" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S58" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S59" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S60" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S61" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S62" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S63" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="ProfileSwitch.Nr0" profile=""/>
+		<ENTRY id="ProfileSwitch.Nr1" profile=""/>
+		<ENTRY id="ProfileSwitch.Nr2" profile=""/>
+		<ENTRY id="ProfileSwitch.Nr3" profile=""/>
+		<ENTRY id="ProfileSwitch.Nr4" profile=""/>
+		<ENTRY id="ClickSwitch" enabled="true" button_size="25.294119" locked="false" position_x="200" position_y="200" horizontal_layout="false" selected_click="0" click_signal="MouthSmile" click_threshold="50.000000" switch_click_signal="MouthPucker" switch_click_threshold="50.000000" autohide="false" auto_select_left_click="false"/>
+		<ENTRY id="PrecisionModeSettings" signal="NONE" threshold="50.000000" behaviour="0" speed_reduction="50.000000" enabled="false" add_to_click_switch_menu="false"/>
+		<ENTRY id="ProfileShortcut" modifiers="NONE" virtual_code="0" scan_code="0"/>
+		<ENTRY id="MouseButtons" enabled="false" sounds="true"/>
+		<ENTRY id="KeyAssignment.Nr0" signal="NONE" threshold="50.000000" virtual_code="0" scan_code="0" key_action="PRESS_ONCE" extended_key="false" modifiers="0" sound_press="" volume_press="1.000000" sound_release="" volume_release="1.000000"/>
+	</SETTINGS>
+	<SETTINGS id="mouse_1">
+		<ENTRY id="ContinousMode" acceleration="30.000002" horizontal_speed="28.000000" vertical_speed="28.000000" up_signal="NONE" down_signal="NONE" left_signal="NONE" right_signal="NONE"/>
+		<ENTRY id="RelativeMode" horizontal_speed="29.000000" vertical_speed="29.000000" acceleration_exponent="30.000004" acceleration_sensitivty="39.000004" acceleration_enabled="false" continous_move="false" continous_horizontal_speed="50.000000" continous_vertical_speed="50.000000" suppression_signal="NONE" suppression_threshold="50.000000"/>
+		<ENTRY id="Center" rotation_X="0.000000" rotation_Y="0.000000" rotation_Z="0.000000" translation_X="0.000000" translation_Y="0.000000" translation_Z="0.000000"/>
+		<ENTRY id="SignalSetting.FPS" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.Tracking" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationX" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationY" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationZ" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationX" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationY" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationZ" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationLeft" lower_bound="0.000000" upper_bound="29.700001" mean="25" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationRight" lower_bound="0.000000" upper_bound="29.700001" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationUp" lower_bound="0.000000" upper_bound="22.500000" mean="25" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationDown" lower_bound="0.000000" upper_bound="22.500000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TiltLeft" lower_bound="9.900000" upper_bound="29.700001" mean="5" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TiltRight" lower_bound="9.900000" upper_bound="29.700001" mean="3" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationLeft" lower_bound="1.000000" upper_bound="150.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationRight" lower_bound="1.000000" upper_bound="150.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationUp" lower_bound="1.000000" upper_bound="150.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationDown" lower_bound="1.000000" upper_bound="150.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationForward" lower_bound="1.000000" upper_bound="150.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationBackward" lower_bound="1.000000" upper_bound="150.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeBlinkLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeBlinkRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesBlink" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeSquintLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeSquintRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesSquint" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesUp" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesDown" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeWideLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeWideRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesWide" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowsDown" lower_bound="0.000000" upper_bound="1.000000" mean="4" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowDownLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowDownRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowsUp" lower_bound="0.050000" upper_bound="1.000000" mean="1" inverted="false" visualize="true"/>
+		<ENTRY id="SignalSetting.BrowUpLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowUpRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowInnerUp" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.JawForward" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.JawLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.JawOpen" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.JawRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthFrown" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthFrownLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthFrownRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthSmileLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthSmileRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthSmile" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthDimple" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthDimpleLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthDimpleRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthPress" lower_bound="0.160000" upper_bound="0.300000" mean="1" inverted="false" visualize="true"/>
+		<ENTRY id="SignalSetting.MouthPressLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthPressRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthStretch" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthStretchLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthStretchRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthRoll" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthRollUpper" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthRollLower" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthUpperUp" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthUpperUpLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthUpperUpRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthLowerDown" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthLowerDownLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthLowerDownRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthShrugUpper" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthShrugLower" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthFunnel" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthPucker" lower_bound="0.500000" upper_bound="0.910000" mean="1" inverted="false" visualize="true"/>
+		<ENTRY id="SignalSetting.MouthClose" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.NoseSneer" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.NoseSneerLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.NoseSneerRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.CheekPuff" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.CheekSquintLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.CheekSquintRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TongueOut" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="true"/>
+		<ENTRY id="MouseWheel" up_signal="BrowsUp" down_signal="MouthPress" acceleration="0.000000" speed="99.000000" enabled="true"/>
+		<ENTRY id="MouseButtons" enabled="false" sounds="false"/>
+		<ENTRY id="LeftClick" signal="MouthSmileLeft" threshold="50.000000" split="false"/>
+		<ENTRY id="RightClick" signal="MouthSmileRight" threshold="50.000000" split="false"/>
+		<ENTRY id="DoubleClick" signal="MouthPucker" threshold="50.000000" split="false"/>
+		<ENTRY id="ClickAndDrag" signal="NONE" threshold="50.000000" split="false"/>
+		<ENTRY id="MiddleClick" signal="NONE" threshold="50.000000" split="false"/>
+		<ENTRY id="Joystick.S0" signal="RotationLeft" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S1" signal="RotationRight" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S2" signal="RotationUp" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S3" signal="RotationDown" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S4" signal="TiltLeft" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S5" signal="TiltRight" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S6" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S7" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S8" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S9" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S10" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S11" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S12" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S13" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S14" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S15" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S16" signal="MouthSmileLeft" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S17" signal="MouthSmileRight" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S18" signal="MouthPucker" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S19" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S20" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S21" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S22" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S23" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S24" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S25" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S26" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S27" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S28" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S29" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S30" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S31" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S32" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S33" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S34" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S35" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S36" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S37" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S38" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S39" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S40" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S41" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S42" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S43" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S44" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S45" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S46" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S47" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S48" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S49" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S50" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S51" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S52" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S53" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S54" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S55" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S56" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S57" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S58" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S59" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S60" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S61" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S62" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S63" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="ProfileSwitch.Nr0" profile=""/>
+		<ENTRY id="ProfileSwitch.Nr1" profile=""/>
+		<ENTRY id="ProfileSwitch.Nr2" profile=""/>
+		<ENTRY id="ProfileSwitch.Nr3" profile=""/>
+		<ENTRY id="ProfileSwitch.Nr4" profile=""/>
+		<ENTRY id="Mode">CONTINOUS_MODE</ENTRY>
+		<ENTRY id="ClickSwitch" enabled="true" button_size="23.529411" locked="true" position_x="200" position_y="200" horizontal_layout="true" selected_click="0" click_signal="MouthPucker" click_threshold="50.000000" switch_click_signal="TongueOut" switch_click_threshold="50.000000" autohide="true" auto_select_left_click="true"/>
+		<ENTRY id="RecenterSettings" signal="NONE" threshold="50.000000" dwell_time="0.000000" play_sound_notification="false" enabled="false"/>
+		<ENTRY id="PrecisionModeSettings" signal="NONE" threshold="50.000000" behaviour="0" speed_reduction="50.000000" enabled="false" add_to_click_switch_menu="false"/>
+		<ENTRY id="ProfileShortcut" modifiers="Alt+Ctrl" virtual_code="51" scan_code="4"/>
+		<ENTRY id="KeyAssignment.Nr0" signal="NONE" threshold="50.000000" virtual_code="0" scan_code="0" key_action="PRESS_ONCE" extended_key="false" modifiers="0" sound_press="" volume_press="1.000000" sound_release="" volume_release="1.000000"/>
+	</SETTINGS>
+	<SETTINGS id="scroll_mouse">
+		<ENTRY id="ContinousMode" acceleration="30.000002" horizontal_speed="28.000000" vertical_speed="28.000000" up_signal="NONE" down_signal="NONE" left_signal="NONE" right_signal="NONE"/>
+		<ENTRY id="RelativeMode" horizontal_speed="29.000000" vertical_speed="29.000000" acceleration_exponent="30.000004" acceleration_sensitivty="39.000004" acceleration_enabled="false" continous_move="false" continous_horizontal_speed="50.000000" continous_vertical_speed="50.000000" suppression_signal="NONE" suppression_threshold="50.000000"/>
+		<ENTRY id="Center" rotation_X="0.000000" rotation_Y="0.000000" rotation_Z="0.000000" translation_X="0.000000" translation_Y="0.000000" translation_Z="0.000000"/>
+		<ENTRY id="SignalSetting.FPS" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.Tracking" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationX" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationY" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationZ" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationX" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationY" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationZ" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationLeft" lower_bound="0.000000" upper_bound="29.700001" mean="25" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationRight" lower_bound="0.000000" upper_bound="29.700001" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationUp" lower_bound="0.000000" upper_bound="22.500000" mean="25" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.RotationDown" lower_bound="0.000000" upper_bound="22.500000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TiltLeft" lower_bound="9.900000" upper_bound="29.700001" mean="5" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TiltRight" lower_bound="9.900000" upper_bound="29.700001" mean="3" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationLeft" lower_bound="1.000000" upper_bound="150.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationRight" lower_bound="1.000000" upper_bound="150.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationUp" lower_bound="1.000000" upper_bound="150.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationDown" lower_bound="1.000000" upper_bound="150.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationForward" lower_bound="1.000000" upper_bound="150.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TranslationBackward" lower_bound="1.000000" upper_bound="150.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeBlinkLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeBlinkRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesBlink" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeSquintLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeSquintRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesSquint" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesUp" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesDown" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeWideLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyeWideRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.EyesWide" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowsDown" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowDownLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowDownRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowsUp" lower_bound="0.290000" upper_bound="0.500000" mean="1" inverted="false" visualize="true"/>
+		<ENTRY id="SignalSetting.BrowUpLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowUpRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.BrowInnerUp" lower_bound="0.000000" upper_bound="1.000000" mean="18" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.JawForward" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.JawLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.JawOpen" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.JawRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthFrown" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthFrownLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthFrownRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthSmileLeft" lower_bound="0.000000" upper_bound="1.000000" mean="11" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthSmileRight" lower_bound="0.000000" upper_bound="1.000000" mean="30" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthSmile" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthDimple" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthDimpleLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthDimpleRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthPress" lower_bound="0.400000" upper_bound="0.600000" mean="1" inverted="false" visualize="true"/>
+		<ENTRY id="SignalSetting.MouthPressLeft" lower_bound="0.000000" upper_bound="1.000000" mean="11" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthPressRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthStretch" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthStretchLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthStretchRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthRoll" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthRollUpper" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthRollLower" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthUpperUp" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthUpperUpLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthUpperUpRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthLowerDown" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthLowerDownLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthLowerDownRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthShrugUpper" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthShrugLower" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthFunnel" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthPucker" lower_bound="0.500000" upper_bound="0.910000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.MouthClose" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.NoseSneer" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.NoseSneerLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.NoseSneerRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.CheekPuff" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.CheekSquintLeft" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.CheekSquintRight" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="false"/>
+		<ENTRY id="SignalSetting.TongueOut" lower_bound="0.000000" upper_bound="1.000000" mean="1" inverted="false" visualize="true"/>
+		<ENTRY id="MouseWheel" up_signal="BrowsUp" down_signal="MouthPress" acceleration="0.000000" speed="99.000000" enabled="true"/>
+		<ENTRY id="MouseButtons" enabled="false" sounds="false"/>
+		<ENTRY id="LeftClick" signal="MouthSmileLeft" threshold="50.000000" split="false"/>
+		<ENTRY id="RightClick" signal="MouthSmileRight" threshold="50.000000" split="false"/>
+		<ENTRY id="DoubleClick" signal="MouthPucker" threshold="50.000000" split="false"/>
+		<ENTRY id="ClickAndDrag" signal="NONE" threshold="50.000000" split="false"/>
+		<ENTRY id="MiddleClick" signal="NONE" threshold="50.000000" split="false"/>
+		<ENTRY id="Joystick.S0" signal="RotationLeft" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S1" signal="RotationRight" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S2" signal="RotationUp" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S3" signal="RotationDown" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S4" signal="TiltLeft" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S5" signal="TiltRight" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S6" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S7" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S8" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S9" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S10" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S11" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S12" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S13" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S14" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S15" signal="NONE" threshold="0.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S16" signal="MouthSmileLeft" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S17" signal="MouthSmileRight" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S18" signal="MouthPucker" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S19" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S20" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S21" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S22" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S23" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S24" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S25" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S26" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S27" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S28" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S29" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S30" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S31" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S32" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S33" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S34" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S35" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S36" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S37" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S38" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S39" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S40" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S41" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S42" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S43" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S44" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S45" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S46" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S47" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S48" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S49" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S50" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S51" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S52" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S53" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S54" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S55" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S56" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S57" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S58" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S59" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S60" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S61" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S62" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="Joystick.S63" signal="NONE" threshold="50.000000" acceleration="0.000000"/>
+		<ENTRY id="ProfileSwitch.Nr0" profile=""/>
+		<ENTRY id="ProfileSwitch.Nr1" profile=""/>
+		<ENTRY id="ProfileSwitch.Nr2" profile=""/>
+		<ENTRY id="ProfileSwitch.Nr3" profile=""/>
+		<ENTRY id="ProfileSwitch.Nr4" profile=""/>
+		<ENTRY id="Mode">CONTINOUS_MODE</ENTRY>
+		<ENTRY id="ClickSwitch" enabled="false" button_size="22.941177" locked="true" position_x="200" position_y="200" horizontal_layout="true" selected_click="0" click_signal="NONE" click_threshold="50.000000" switch_click_signal="NONE" switch_click_threshold="50.000000" autohide="true" auto_select_left_click="true"/>
+		<ENTRY id="RecenterSettings" signal="NONE" threshold="50.000000" dwell_time="0.000000" play_sound_notification="false" enabled="false"/>
+		<ENTRY id="PrecisionModeSettings" signal="NONE" threshold="50.000000" behaviour="0" speed_reduction="50.000000" enabled="false" add_to_click_switch_menu="false"/>
+		<ENTRY id="ProfileShortcut" modifiers="Alt+Ctrl" virtual_code="52" scan_code="5"/>
+		<ENTRY id="KeyAssignment.Nr0" signal="TongueOut" threshold="50.000000" virtual_code="119" scan_code="66" key_action="PRESS_ONCE" extended_key="false" modifiers="6" sound_press="" volume_press="1.000000" sound_release="" volume_release="1.000000"/>
+	</SETTINGS>
+</XY_SETTINGS>
+

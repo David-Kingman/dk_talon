@@ -51,11 +51,44 @@ log: log
 round
 # renv
 init
+status
 snapshot
 restore
-status
-update
+embed
+use
 install
+update
+remove
+dependencies
+project
+activate
+deactivate
+migrate
+load
+upgrade
+refresh
+rebuild
+repair
+clean
+lockfile create: lockfile_create
+lockfile read: lockfile_read
+lockfile write: lockfile_write
+lockfile modify: lockfile_modify
+record
+remote
+modify
+history
+revert
+scaffold
+isolate
+rehash
+purge
+use python: use_python
+autoload
+checkout
+consent
+diagnostics
+run
 # dplyr
 mutate
 filter

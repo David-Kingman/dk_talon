@@ -29,6 +29,12 @@ reply everyone: key(ctrl-shift-r)
 forward: key(ctrl-f)
 flag: key(insert)
 
+# Meeting invitations
+accept: 
+    mouse_move(3205, 591)
+    sleep(1s)
+    mouse_click(0)
+
 # Clear word left
 zip: key(ctrl-backspace)
 
