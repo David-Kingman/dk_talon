@@ -68,14 +68,14 @@ end meeting: key(ctrl-shift-h)
 # Screen Sharing
 share my screen: 
     key(ctrl-shift-e)
-    sleep(1000ms)
+    sleep(5s)
     key(tab)
-    sleep(1000ms)
+    sleep(5s)
     key(tab)
-    sleep(1000ms)
+    sleep(5s)
     key(tab)
-    sleep(1000ms)
-    key(return)
+    sleep(5s)
+    key(enter)
 
 stop sharing my screen: key(ctrl-shift-e)
 
