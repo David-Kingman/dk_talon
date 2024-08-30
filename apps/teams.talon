@@ -31,7 +31,7 @@ new chat: key(ctrl-n)
 go chat {user.address_book}:
     key(ctrl-n)
     sleep(1s)
-    insert(address_book)
+    insert(address_book)        
     sleep(1s)
     key(enter)
     key(enter)

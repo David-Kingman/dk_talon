@@ -6,6 +6,7 @@ app: Microsoft Outlook
 # Navigation
 go inbox: key(ctrl-1)
 go calendar: key(ctrl-2)
+jump message: key(tab tab tab tab)
 
 # Searching
 find <user.text>$:
@@ -94,6 +95,10 @@ low <user.prose>$:
     insert("Hi ")
     user.insert_formatted(prose, "CAPITALIZE_ALL_WORDS")
     insert(",")
+    key(enter enter)
+
+hello:
+    insert("Hi,")
     key(enter enter)
 
 goodbye:

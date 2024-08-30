@@ -20,6 +20,11 @@ pack {user.r_packages}:
     string = r_packages + "::"
     insert(string)
 
+install {user.r_packages}:
+    start = 'renv::install("' + r_packages
+    end = start + '")'
+    insert(end)
+
 # List commands
 funk {user.r_functions}: insert(r_functions + "(")
 

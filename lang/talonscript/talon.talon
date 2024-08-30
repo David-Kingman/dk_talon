@@ -7,7 +7,7 @@ app: vscode
 funk {user.talon_functions}: 
     insert(talon_functions + "()")
     key(left)
-
+    
 # Talon lists and captures
 capture text: insert("<user.text>$")
 capture prose: insert("<user.prose>$")

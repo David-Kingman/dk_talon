@@ -76,6 +76,19 @@ strung <user.prose>$:
     user.insert_formatted(prose, "CAPITALIZE_ALL_WORDS")
     insert('"') 
 
+# Title format and separate with dots
+dame <user.prose>$: 
+    user.add_phrase_to_history(prose)
+    title_text = user.formatted_text(prose, "CAPITALIZE_ALL_WORDS")
+    user.insert_formatted(title_text, "DOT_SEPARATED")
+
+# Email format
+mail <user.prose>$: 
+    user.add_phrase_to_history(prose)
+    title_text = user.formatted_text(prose, "CAPITALIZE_ALL_WORDS")
+    user.insert_formatted(title_text, "DOT_SEPARATED")    
+    insert("@")
+    
 # Select text
 grab <user.prose_range>$: user.perform_ocr_action("select", "", prose_range)
 
