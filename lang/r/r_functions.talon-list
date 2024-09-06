@@ -32,6 +32,10 @@ sequence: seq
 sort: sort
 unique: unique
 function
+cut 
+list objects: ls 
+remove: rm
+number rose: nrow
 # statistics
 min
 mean
@@ -96,6 +100,8 @@ select
 summarize
 contains
 across
+all off: all_of
+row number: row_number
 matches
 anti join: anti_join
 arrange: arrange
@@ -127,6 +133,9 @@ slice tail: slice_tail
 slice sample: slice_sample
 slice max: slice_max
 slice min: slice_min
+bind coals: bind_cols
+if else knew: if_else
+where
 # ggplot2
 GG plot: ggplot
 aesthetics: aes
@@ -165,19 +174,26 @@ why lab: ylab
 GG title: ggtitle
 GG save: ggsave
 # purrr
+set names: set_names
 map character: map_chr
 map data frame: map_dfr
 map double: map_dbl
 map: map
+I map dataframe: imap_dfr
+map two: map2
 I map: imap
 P map: pmap
 # stringr
+word
 string detect: str_detect
 string replace all: str_replace_all
 string replace: str_replace
 string to title: str_to_title
 string split: str_split
 string extract: str_extract
+string remove: str_remove
+string remove all: str_remove_all
+string trim: str_trim
 # tidyr
 drop NA: drop_na
 gather: gather
@@ -192,7 +208,32 @@ read CSV: read_csv
 read are: read_rds
 right are: write_rds
 # haven
-read sass: read_sas
+read dta: read_dta
+read stata: read_stata
+write dta: write_dta
+read sas: read_sas
+read sav: read_sav
+read por: read_por
+write sav: write_sav
+read spss: read_spss
+read xpt: read_xpt
+write xpt: write_xpt
+labelled: labelled
+labelled spss: labelled_spss
+is labelled: is.labelled
+print labels: print_labels
+as factor: as_factor
+tagged na: tagged_na
+na tag: na_tag
+is tagged na: is_tagged_na
+format tagged na: format_tagged_na
+print tagged na: print_tagged_na
+zap empty: zap_empty
+zap formats: zap_formats
+zap label: zap_label
+zap labels: zap_labels
+zap missing: zap_missing
+zap widths: zap_widths
 # here
 here
 # srvyr
@@ -201,3 +242,21 @@ survey total: survey_total
 survey mean: survey_mean
 # scales
 label wrap: label_wrap
+# Shiny
+DT output: DTOutput
+render DT: renderDT
+# Feather
+right feather: write_feather
+read feather: read_feather
+# vroom
+vroom
+# textreadr
+read RTF: read_rtf
+
+
+
+
+
+
+
+

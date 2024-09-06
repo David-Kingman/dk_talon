@@ -29,5 +29,15 @@ next plot: key(ctrl-alt-f12)
 # Git
 commit this: key(ctrl-alt-m)
 
+# Interrupt R
+kill this: key(escape)
+restart session: key(ctrl-shift-f10)
+
+# Run code
+run that: key(ctrl-enter)
+file run: 
+    key(ctrl-a)
+    key(ctrl-enter)
+
 # Terminal
 abort: key(ctrl-c)

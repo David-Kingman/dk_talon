@@ -36,10 +36,6 @@ pam {user.r_function_arguments}: insert(r_function_arguments + " = ")
     insert(end)
 
 sign {user.r_symbols}: insert(r_symbols) 
-    
-help {user.r_functions}: insert("?" + r_functions)
-
-help {user.r_packages}: insert("?" + r_packages)
 
 # Special R symbols/code blocks
 chain:
