@@ -50,6 +50,6 @@ right curly: }
 left square: [
 right square: ]
 # Currencies
-dollar sign: $
+benjamin: $
 pound sign: £
  

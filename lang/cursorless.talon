@@ -10,3 +10,8 @@ replace <user.cursorless_target> with <user.text>$:
     user.cursorless_command("setSelection", cursorless_target)
     edit.delete()
     insert(text)
+
+# Run R code
+raid <user.cursorless_target>$:
+    user.cursorless_command("setSelection", cursorless_target)
+    key(ctrl-enter)
