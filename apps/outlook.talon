@@ -30,20 +30,6 @@ reply everyone: key(ctrl-shift-r)
 forward: key(ctrl-f)
 flag: key(insert)
 
-# Meeting invitations
-accept: user.click_and_return(3205, 591)
-decline: user.click_and_return(3577, 456)
-maybe: user.click_and_return(3395, 456)
-remove: user.click_and_return(1376, 899)
-
-accept top: user.click_and_return(3207, 371)
-decline top: user.click_and_return(3585, 385)
-maybe top: user.click_and_return(3403, 371)
-
-accept middle: user.click_and_return(3220, 462)
-decline middle: user.click_and_return(3409, 462)
-maybe middle: user.click_and_return(3591, 469)
-
 # Clear word left
 zip: key(ctrl-backspace)
 
@@ -72,8 +58,15 @@ file civil service: key(ctrl-shift-8)
 {user.address_book} email:
     insert(address_book)
     sleep(500ms)
+    key(enter) 
+
+# Tag someone
+shout {user.names}:
+    insert("@")
+    insert(names)
+    sleep(500ms)
     key(enter)
-    
+
 # Useful Text
 subject <user.prose>$: 
     key(tab tab tab)

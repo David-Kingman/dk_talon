@@ -1,3 +1,4 @@
+
 list: user.symbol_key
 language: en
 -
@@ -16,7 +17,7 @@ hash: #
 at: @
 ampersand: &
 pipe: |
-tile: ~  
+# tile: ~  
 bang: !
 underscore: _
 # Quotes
