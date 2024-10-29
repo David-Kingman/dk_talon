@@ -57,9 +57,10 @@ text reader: textreadr
 # Containers
 Azure Containers: AzureContainers
 Azure utilities: AzureRMR
-
-
-
+# VSCode R
+language server: languageserver
+Jason light: jsonlite
+HTTP good: httpgd
 
 
 

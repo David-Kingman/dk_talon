@@ -94,48 +94,103 @@ consent
 diagnostics
 run
 # dplyr
-mutate
-filter
-select
-summarize
-contains
-across
-all off: all_of
-row number: row_number
-matches
-anti join: anti_join
 arrange: arrange
-as tibble: as_tibble
-bind rows: bind_rows
-case when: case_when
 distinct: distinct
-everything: everything
-full join: full_join
-glimpse: glimpse
-group by: group_by
-group split: group_split
-inner join: inner_join
-left join: left_join
-pull: pull
-rename all: rename_all
-rename
-rename with: rename_with
-right join: right_join
-select all: select_all
-semi join: semi_join
-starts with: starts_with
-ends with: ends_with
-tibble: tibble
-ungroup: ungroup
-slice
+filter: filter
+slice: slice
 slice head: slice_head
 slice tail: slice_tail
-slice sample: slice_sample
-slice max: slice_max
 slice min: slice_min
-bind coals: bind_cols
-if else knew: if_else
-where
+slice max: slice_max
+slice sample: slice_sample
+mutate: mutate
+pull: pull
+relocate: relocate
+rename: rename
+rename with: rename_with
+select: select
+count: count
+tally: tally
+add count: add_count
+add tally: add_tally
+group by: group_by
+ungroup: ungroup
+row wise: rowwise
+summarise: summarise
+reframe: reframe
+en: n
+cur group: cur_group
+cur group id: cur_group_id
+cur group rows: cur_group_rows
+cur column: cur_column
+bind cols: bind_cols
+bind rows: bind_rows
+intersect: intersect
+union: union
+union all: union_all
+set diff: setdiff
+set equal: setequal
+sim diff
+: symdiff
+inner join: inner_join
+left join: left_join
+right join: right_join
+full join: full_join
+nest join: nest_join
+semi join: semi_join
+anti join: anti_join
+cross join: cross_join
+join by: join_by
+rows insert: rows_insert
+rows append: rows_append
+rows update: rows_update
+rows patch: rows_patch
+rows upsert: rows_upsert
+rows delete: rows_delete
+mutate: mutate
+summarise: summarise
+filter: filter
+group by: group_by
+across: across
+if any: if_any
+if all: if_all
+function: function
+c across: c_across
+pick: pick
+between: between
+case match: case_match
+switch: switch
+case when: case_when
+coalesce: coalesce
+consecutive id: consecutive_id
+cumall: cumall
+cumany: cumany
+cummean: cummean
+desc: desc
+if else: if_else
+lag: lag
+lead: lead
+n distinct: n_distinct
+na if: na_if
+near: near
+nth: nth
+first: first
+last: last
+ntile: ntile
+order by: order_by
+percent rank: percent_rank
+cume dist: cume_dist
+recode: recode
+recode factor: recode_factor
+row number: row_number
+min rank: min_rank
+dense rank: dense_rank
+mostl: mostl
+group cols: group_cols
+group map: group_map
+group modify: group_modify
+group walk: group_walk
+group trim: group_trim
 # ggplot2
 GG plot: ggplot
 aesthetics: aes
@@ -173,6 +228,8 @@ ex lab: xlab
 why lab: ylab
 GG title: ggtitle
 GG save: ggsave
+# forcats
+fact recode: fct_recodeb
 # purrr
 set names: set_names
 map character: map_chr

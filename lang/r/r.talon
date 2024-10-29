@@ -10,7 +10,11 @@ add package {user.r_packages}:
     start = 'install.packages("' + r_packages
     end = start + '")'
     insert(end)
-    
+
+add VSCode packages: 
+    insert('renv::install(c("languageserver", "jsonlite", "httpgd"))')
+    key(enter)
+
 library {user.r_packages}:
     start = "library(" + r_packages
     end = start + ")"
@@ -28,6 +32,8 @@ install {user.r_packages}:
 # List commands
 funk {user.r_functions}: insert(r_functions + "(")
 
+funk anonymous: "\(x) "
+ 
 pam {user.r_function_arguments}: insert(r_function_arguments + " = ")
 
 {user.r_symbols}: 

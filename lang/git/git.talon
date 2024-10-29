@@ -6,4 +6,4 @@ app: vscode
 -
 
 # Git bash functions
-{user.git_functions}: insert(git_functions + " ")
+glitter {user.git_functions}: insert(git_functions + " ")
