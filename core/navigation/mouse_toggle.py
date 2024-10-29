@@ -1,4 +1,4 @@
-from talon import Module, actions, ctrl, cron
+from talon import Module, actions
 
 mod = Module()
 
