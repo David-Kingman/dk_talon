@@ -1,6 +1,5 @@
 os: windows
 mode: command
-app: remote desktop
 app: vscode
 -
 
