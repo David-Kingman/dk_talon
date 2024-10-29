@@ -32,12 +32,12 @@ store hunt <user.text>$:
     insert(text)
     key(enter)
 
-# Search the talon slack for text
-slack <user.text>$:
-    user.open_url("https://app.slack.com/client/T7FPSMV8F")
-    sleep(5s)
-    key(ctrl-f)
-    sleep(1s)
-    edit.delete_line()
-    insert(text)
-    key(enter)
+# # Search the talon slack for text
+# slack <user.text>$:
+#     user.open_url("https://app.slack.com/client/T7FPSMV8F")
+#     sleep(5s)
+#     key(ctrl-f)
+#     sleep(1s)
+#     edit.delete_line()
+#     insert(text)
+#     key(enter)

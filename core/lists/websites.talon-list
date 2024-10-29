@@ -18,7 +18,7 @@ ebay: https://www.ebay.co.uk/
 # Talon Websites
 talon: https://talonvoice.com/docs/
 talon wiki: https://talon.wiki/
-talent slack: https://app.slack.com/client/T7FPSMV8F
+slack: https://app.slack.com/client/T7FPSMV8F
 code docs: https://code.visualstudio.com/docs
 cursor doc: https://www.cursorless.org/
 community docs: https://github.com/talonhub/community
@@ -29,7 +29,7 @@ personal: https://github.com/David-Kingman/dk_talon/tree/main
 GitHub: https://github.com/David-Kingman
 
 # Work Websites
-store: https://tris42.sharepoint.com/sites/hmt_is_ptwp/Distributional%20Analysis/Forms/All.aspx?id=%2Fsites%2Fhmt%5Fis%5Fptwp%2FDistributional%20Analysis%2FEqualities%20and%20Living%20Standards%20Analysis%20%28ELSA%29&viewid=83789605%2Db5da%2D4c64%2Db6cc%2Df786128e882e
+store: https://tris42.sharepoint.com/sites/hmt_is_ptwp/Distributional%20Analysis/Forms/All.aspx?id=%2Fsites%2Fhmt%5Fis%5Fptwp%2FDistributional%20Analysis%2FEqualities%20and%20Living%20Standards%20Analysis%20%28ELSA%29%2FELSA%20%2D%20Equalities&viewid=83789605%2Db5da%2D4c64%2Db6cc%2Df786128e882e
 projects: https://dev.azure.com/DELmodel/
 explorer: https://hmtlmdaequalitiesexplorer.azurewebsites.net/
 repo: https://dev.azure.com/DELmodel/_git/equalities_explorer 

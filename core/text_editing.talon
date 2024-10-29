@@ -69,12 +69,19 @@ clean down:
     edit.extend_file_end()
     edit.delete()
     
-# Title format and wrap text in quotes
+# Title format and wrap text in double quotes
 strung <user.prose>$: 
     insert('"')
     user.add_phrase_to_history(prose)
     user.insert_formatted(prose, "CAPITALIZE_ALL_WORDS")
     insert('"') 
+
+# Wrap sentence in single quotes
+strangle <user.prose>$: 
+    insert("'")
+    user.add_phrase_to_history(prose)
+    user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
+    insert("'")
 
 # Title format and separate with dots
 dame <user.prose>$: 
@@ -150,3 +157,16 @@ bail <user.prose>$:
     user.add_phrase_to_history(prose)
     insert("# ")
     user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
+
+# bullets
+bullet <user.prose>$: 
+    user.add_phrase_to_history(prose)
+    insert("- ")
+    user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
+
+# square brackets
+squint <user.prose>$: 
+    user.add_phrase_to_history(prose)
+    insert("[")
+    user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
+    insert("]")

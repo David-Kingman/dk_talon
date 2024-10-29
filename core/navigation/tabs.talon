@@ -1,4 +1,4 @@
-os: windows
+os: windows 
 tag: user.tabs
 -
 
@@ -9,7 +9,7 @@ bolt <number>: user.tab_jump(number)
 able: app.tab_open()
 
 # Tab close
-cane: user.tab_close_wrapper()
+# cane: user.tab_close_wrapper()
 
 # Tab last
 best: app.tab_previous()

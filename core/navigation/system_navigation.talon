@@ -41,7 +41,7 @@ shutdown computer:
 
 # Launch Skynet
 launch Skynet:
-    mouse_move(1026, 21)
+    mouse_move(913, 14)
     sleep(3s)
     mouse_click(0)
     sleep(5s)

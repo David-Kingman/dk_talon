@@ -35,6 +35,7 @@ next row: key(alt-down alt-down)
 
 # Paste as plain text
 paste plain: key(ctrl-alt-v up return)
+paste text: key(ctrl-shift-v)
 
 # Copy a Whole Line
 grab line: 
@@ -42,11 +43,8 @@ grab line:
     sleep(1000ms)
     key(up)
 
-# Useful Text
-no: insert("No")
-
 # Grab Link
-grab link:
+fetch link:
     mouse_move(3729, 430)
     sleep(1000ms)
     mouse_click(0)

@@ -1,4 +1,5 @@
 list: user.git_functions
+language: en
 -
 
 list files: ls
@@ -13,3 +14,4 @@ merge: git merge
 push: git push 
 pull: git pull
 remove file: git rm
+status: git status

@@ -17,6 +17,7 @@ ampersand: &
 exclamation mark: !
 underscore: _
 dash: " - "
+percent: % 
 # Quotes
 quad: ' "'
 end quad: '" '
