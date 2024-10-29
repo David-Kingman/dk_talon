@@ -10,11 +10,11 @@ dot: .
 comma: ,
 colon: :
 semicolon: ;
-question mark: ?
+quest: ?
 slash: /
 backslash: \
 hash: #
-at: @
+at sign: @
 ampersand: &
 pipe: |
 # tile: ~  
@@ -51,6 +51,6 @@ right curly: }
 left square: [
 right square: ]
 # Currencies
-dollar sign: $
-pound sign: £
+benjamin: $
+sterling: £
  
