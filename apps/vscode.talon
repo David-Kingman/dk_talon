@@ -6,6 +6,9 @@ app: vscode
 # Implement tags
 tag(): user.tabs
 
+# Window management
+new project: key(ctrl-shift-n)
+
 # Search files
 find [<user.text>]:
     user.vscode("workbench.action.quickOpen")

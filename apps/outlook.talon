@@ -50,8 +50,8 @@ file data: key(ctrl-shift-7)
 # Personal quick steps
 file receipts: key(ctrl-shift-9)
 file civil service: key(ctrl-shift-8)
-# move health: key(ctrl-shift-7)
-# move finances: key(ctrl-shift-6)
+file health: key(ctrl-shift-7)
+file money: key(ctrl-shift-6)
 # move jobs: key(ctrl-shift-5)
 
 # Chose email address
