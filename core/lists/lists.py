@@ -22,4 +22,5 @@ mod.list("r_symbols", "R symbols")
 mod.list("talon_functions", "Talon functions")
 
 # Git
-mod.list("git_functions", "Git commands")
+mod.list("git_commands_terminal", "Git commands to use in bash terminals")
+mod.list("git_commands_palette", "Git commands to use in VSCode command palate")

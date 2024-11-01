@@ -1,0 +1,26 @@
+list: user.git_commands_palette
+language: En
+-
+
+# Show diffs
+show: "Git: Open Changes"
+show all: "Git: Open All Changes"
+hide: "Git: Open File"
+
+# Stage changes
+stage all: "Git: Stage All Changes"
+
+# Commit
+commit: "Git: Commit"
+commit all: "Git: Commit All"
+
+# Push and pull
+pull: "Git: Pull"
+push: "Git: Push" 
+
+# Checkout: "Git: Checkout"
+# Clone: "Git: Clone"
+# Ignore: "Git: Ignore"
+# Merge: "Git: Merge"
+# Create Branch: "Git: Create Branch"
+# Delete Branch: "Git: Delete Branch"
