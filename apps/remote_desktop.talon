@@ -63,3 +63,4 @@ terminal scrub:
     insert("Terminal: Clear")
     key(enter)
     key(escape)
+
