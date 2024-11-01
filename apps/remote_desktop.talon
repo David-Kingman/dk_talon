@@ -18,7 +18,7 @@ find [<user.text>]:
 go <number>:
     key(ctrl-g)
     sleep(50ms)
-    insert(number)b
+    insert(number)
     sleep(50ms)
     key(enter)
 
@@ -32,7 +32,7 @@ puff <number>:
 # Sidebar
 bar switch: key(ctrl-b)
 show files: key(ctrl-shift-e)
-show git: key(ctrl-shift-g)
+show changes: key(ctrl-shift-g g)
 show extensions: key(ctrl-shift-x)
 
 # R
@@ -40,7 +40,7 @@ raid that: key(ctrl-enter)
 
 raid line: 
     key(ctrl-l)
-    key(ctrl-ENTER)
+    key(ctrl-enter)
     key(escape)
 
 raid <number>:
@@ -50,7 +50,7 @@ raid <number>:
     sleep(50ms)
     key(enter)
     key(ctrl-l)
-    key(ctrl-enter)
+    key(ctrl-enter) 
     key(escape)
 
 file raid: 
@@ -62,5 +62,31 @@ terminal scrub:
     key(ctrl-shift-p)
     insert("Terminal: Clear")
     key(enter)
+
+# Git
+glare {user.git_commands_palette}:
+    key(ctrl-shift-p)
+    sleep(50ms)
+    insert(git_commands_palette)
+    sleep(50ms)
+    key(enter)
+
+glare blank:
+    key(ctrl-shift-p)
+    insert("Git: ")
+
+glare stage:
+    key(ctrl-a)
+    sleep(50ms)
+    key(ctrl-shift-p)
+    sleep(50ms)
+    insert("Git: Stage Selected Ranges")
+    sleep(50ms)
+    key(enter)
+    sleep(50ms)
     key(escape)
 
+glare submit:
+    key(ctrl-s)
+    sleep(50ms)
+    key(ctrl-w)
