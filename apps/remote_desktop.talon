@@ -62,3 +62,4 @@ terminal scrub:
     key(ctrl-shift-p)
     insert("Terminal: Clear")
     key(enter)
+    key(escape)
