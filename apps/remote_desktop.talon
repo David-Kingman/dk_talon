@@ -81,9 +81,9 @@ glare stage:
     key(ctrl-shift-p)
     sleep(50ms)
     insert("Git: Stage Selected Ranges")
-    sleep(50ms)
+    sleep(500ms)
     key(enter)
-    sleep(50ms)
+    sleep(500ms)
     key(escape)
 
 glare submit:
