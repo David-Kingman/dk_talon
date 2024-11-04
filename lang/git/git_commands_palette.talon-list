@@ -18,9 +18,11 @@ commit all: "Git: Commit All"
 pull: "Git: Pull"
 push: "Git: Push" 
 
-# Checkout: "Git: Checkout"
-# Clone: "Git: Clone"
-# Ignore: "Git: Ignore"
-# Merge: "Git: Merge"
-# Create Branch: "Git: Create Branch"
-# Delete Branch: "Git: Delete Branch"
+# Branching
+create branch: "Git: Create Branch"
+checkout: "Git: Checkout to..."
+delete branch: "Git: Delete Branch"
+merge: "Git: Merge"
+
+# Ignore:
+ignore: "Git: Add to .gitignore"

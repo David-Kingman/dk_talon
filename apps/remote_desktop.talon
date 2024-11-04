@@ -92,7 +92,9 @@ glare stage:
     sleep(500ms)
     key(escape)
 
-glare submit:
-    key(ctrl-s)
-    sleep(50ms)
-    key(ctrl-w)
+# glare submit:
+#     key(ctrl-s)
+#     sleep(50ms)
+#     key(ctrl-w)
+
+glare submit: key(ctrl-enter)
