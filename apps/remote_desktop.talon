@@ -29,6 +29,12 @@ puff <number>:
     sleep(50ms)
     key(enter enter up)
 
+# Search files
+please [<user.text>]:
+    key(ctrl-shift-p)
+    sleep(50ms)
+    insert(text or "")
+
 # Sidebar
 bar switch: key(ctrl-b)
 show files: key(ctrl-shift-e)
