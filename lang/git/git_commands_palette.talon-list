@@ -4,7 +4,7 @@ language: En
 
 # Show diffs
 show: "Git: Open Changes"
-show all: "Git: Open All Changes"
+show everything: "Git: Open All Changes"
 hide: "Git: Open File"
 
 # Stage changes

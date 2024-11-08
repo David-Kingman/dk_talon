@@ -44,6 +44,15 @@ dent:
     insert(".")
     key(enter)
 
+# Useful text
+thanks: 
+    insert("Thank you")
+    key(enter)
+
+okay: 
+    insert("Okay")
+    key(enter)
+
 # Accepting Calls
 accept video call: key(ctrl-shift-a)
 accept audio call: key(ctrl-shift-s)

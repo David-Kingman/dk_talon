@@ -5,3 +5,5 @@ talon
 talon list: talon-list
 rare: R
 pie: py
+glitter ignore: gitignore
+linter: lintr

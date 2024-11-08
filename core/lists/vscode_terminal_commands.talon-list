@@ -1,0 +1,21 @@
+list: user.vscode_terminal_commands
+language: En
+-
+
+# Create new terminals
+knew: "Terminal: Create New Terminal"
+rare: "R: Create R terminal"
+
+# Terminal output
+clear: "Terminal: Clear"
+copy: "Terminal: Copy Last Command Output"
+
+# Terminal navigation
+focus: "Terminal: Focus Terminal"
+next: "Terminal: Focus Previous Terminal Group"
+
+# Kill terminals
+kill: "Terminal: Kill the Active Terminal Instance"
+
+# Show/hide terminals
+switch: "View: Toggle Panel Visibility"

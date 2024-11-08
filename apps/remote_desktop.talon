@@ -8,6 +8,9 @@ app: remote desktop
 # Implement tags
 tag(): user.tabs
 
+# Manage windows
+new window: key(ctrl-shift-n)
+
 # Search files
 find [<user.text>]:
     key(ctrl-p)
@@ -28,6 +31,15 @@ puff <number>:
     insert(number)
     sleep(50ms)
     key(enter enter up)
+
+show settings: key(ctrl-,)
+
+close everything: 
+    key(ctrl-shift-p)
+    sleep(50ms)
+    insert("View: Close All Editors")
+    sleep(50ms)
+    key(enter)
 
 # Search files
 please [<user.text>]:
@@ -64,9 +76,11 @@ file raid:
     key(ctrl-enter)
     key(escape)
 
-terminal scrub: 
+shiny run: 
     key(ctrl-shift-p)
-    insert("Terminal: Clear")
+    sleep(50ms)
+    insert("Shiny: Run Shiny App")
+    sleep(50ms)
     key(enter)
 
 # Git
@@ -93,3 +107,13 @@ glare stage:
     key(escape)
 
 glare submit: key(ctrl-enter)
+
+# Terminals
+terminal {user.vscode_terminal_commands}:
+    key(ctrl-shift-p)
+    sleep(50ms)
+    insert(vscode_terminal_commands)
+    sleep(50ms)
+    key(enter)
+
+abort: key(ctrl-c)

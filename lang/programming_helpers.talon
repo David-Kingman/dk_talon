@@ -13,3 +13,9 @@ help [{user.r_packages}] [{user.r_functions}] [<user.prose>]$:
     search = "R {default_package} {default_function} {default_text}"
     sleep(500ms)
     user.search_with_search_engine("https://www.google.com/search?q=%s", search)
+
+paste help: 
+    text = clip.text()
+    search = "R {text}"
+    sleep(500ms)
+    user.search_with_search_engine("https://www.google.com/search?q=%s", search)

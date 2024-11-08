@@ -2,16 +2,28 @@ list: user.git_commands_terminal
 language: en
 -
 
+# File system navigation
 list files: ls
 change folder: cd
+status: git status
+remove file: git rm
+
+# Staging
+stage: git stage
+stage all: git stage .
+
+# Committing
+commit: git commit -m
+
+# Branching
 change branch: git checkout
 new branch: git checkout -b
 show branches: git branch
-stage: git stage
-stage all: git stage .
-commit: git commit -m
+
+# Merging
 merge: git merge
+merge abort: git merge --abort
+
+# Push and pull
 push: git push 
 pull: git pull
-remove file: git rm
-status: git status

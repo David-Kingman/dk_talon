@@ -23,10 +23,11 @@ shiny busy: shinybusy
 shiny alert: shinyalert
 shiny js: shinyjs
 shiny browser: shinybrowser
+HTML tools: htmltools
 # Package development
 dev tools: devtools
 # Publication
-R markdown: rmarkdown
+R markdown: rmarkdown 
 quarto
 knitter: knitr
 cable: kable
@@ -43,8 +44,9 @@ haven
 arrow
 open excel: openxlsx
 collapse
+rare apply: rrapply
 # Other
-here
+herecollapse
 git two are: git2r
 remotes
 renv
@@ -61,6 +63,7 @@ Azure utilities: AzureRMR
 language server: languageserver
 Jason light: jsonlite
 HTTP good: httpgd
+linter: lintr
 
 
 

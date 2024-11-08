@@ -7,6 +7,7 @@ install packages: install.packages
 # object creation
 vector: c
 list
+unlist
 names
 as character: as.character
 as double: as.double
@@ -15,6 +16,9 @@ as integer: as.integer
 as factor: as.factor
 as date: as.Date
 factor
+levels
+check encoding: validUTF8
+structure: str
 # programming
 get working directory: getwd
 set working directory: setwd
@@ -130,8 +134,7 @@ union: union
 union all: union_all
 set diff: setdiff
 set equal: setequal
-sim diff
-: symdiff
+sim diff: symdiff
 inner join: inner_join
 left join: left_join
 right join: right_join
@@ -230,6 +233,29 @@ GG title: ggtitle
 GG save: ggsave
 # forcats
 fact recode: fct_recodeb
+# tibble  
+tibble: tibble
+tibble row: tibble_row
+tribble: tribble
+is tibble: is_tibble
+as tibble: as_tibble
+as tibble_row: as_tibble_row
+as tibble_col: as_tibble_col
+enframe: enframe
+deframe: deframe
+add row: add_row
+add column: add_column
+has rownames: has_rownames
+remove rownames: remove_rownames
+rownames to column: rownames_to_column
+column to rownames: column_to_rownames
+view: view
+enframe: enframe
+deframe: deframe
+tibble list: lst
+as tibble: as_tibble
+as tibble row: as_tibble_row
+as tibble col: as_tibble_col
 # purrr
 set names: set_names
 map character: map_chr
@@ -240,6 +266,8 @@ I map dataframe: imap_dfr
 map two: map2
 I map: imap
 P map: pmap
+# rrapply
+rare apply: rrapply
 # stringr
 word
 string detect: str_detect
@@ -300,6 +328,7 @@ survey mean: survey_mean
 # scales
 label wrap: label_wrap
 # Shiny
+shiny app: shinyApp
 DT output: DTOutput
 render DT: renderDT
 # Feather
@@ -309,7 +338,8 @@ read feather: read_feather
 vroom
 # textreadr
 read RTF: read_rtf
-
+# lintr
+use linter: use_lintr
 
 
 

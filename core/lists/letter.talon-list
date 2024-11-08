@@ -3,7 +3,7 @@ list: user.letter
 
 # air:        a
 ace:        a
-bat:        b
+beer:       b
 cap:        c
 drum:       d
 each:       e
@@ -32,4 +32,4 @@ whale:      w
 plex:       x
 yank:       y
 # zip:        z
-zoo:       z
+zoo:        z
