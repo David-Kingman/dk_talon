@@ -20,14 +20,14 @@ library {user.r_packages}:
     end = start + ")"
     insert(end)
 
-pack {user.r_packages}:
-    string = r_packages + "::"
-    insert(string)
-
 install {user.r_packages}:
     start = 'renv::install("' + r_packages
     end = start + '")'
     insert(end)
+
+get version {user.r_packages}: 
+    package = 'packageVersion("{r_packages}")'
+    insert(package)
 
 # List commands
 funk {user.r_functions}: insert(r_functions + "(")

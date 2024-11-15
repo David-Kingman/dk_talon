@@ -16,7 +16,7 @@ drat: user.mouse_drag_end()
 # Copy mouse coordinates
 get cords: user.copy_mouse_position()
 
-# Mouse drag box
-pick: user.start_position()
-take box: user.mouse_drag_box()
-copy box: user.mouse_copy_box()
+# # Mouse drag box
+# pick: user.start_position()
+# take box: user.mouse_drag_box()
+# copy box: user.mouse_copy_box()

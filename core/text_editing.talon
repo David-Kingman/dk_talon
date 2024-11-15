@@ -95,7 +95,14 @@ mail <user.prose>$:
     title_text = user.formatted_text(prose, "CAPITALIZE_ALL_WORDS")
     user.insert_formatted(title_text, "DOT_SEPARATED")    
     insert("@")
-    
+
+# Include text wrapped in brackets
+brack <user.prose>$: 
+    insert(" (")
+    user.add_phrase_to_history(prose)
+    insert(prose)
+    insert(")")
+
 # Select text
 grab <user.prose_range>$: user.perform_ocr_action("select", "", prose_range)
 

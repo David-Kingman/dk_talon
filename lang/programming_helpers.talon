@@ -19,3 +19,12 @@ paste help:
     search = "R {text}"
     sleep(500ms)
     user.search_with_search_engine("https://www.google.com/search?q=%s", search)
+
+pack {user.r_packages}: insert(r_packages)
+function {user.r_functions}: insert(r_functions)
+
+# Get VSCode help
+code [<user.prose>]$:
+    search = "VSCode {prose}"
+    sleep(500ms)
+    user.search_with_search_engine("https://www.google.com/search?q=%s", search)

@@ -40,6 +40,7 @@ cut
 list objects: ls 
 remove: rm
 number rose: nrow
+help
 # statistics
 min
 mean
@@ -340,7 +341,9 @@ vroom
 read RTF: read_rtf
 # lintr
 use linter: use_lintr
-
+# custom
+dash: reload_dashboard
+stop: "call_docker('stop ee_app')"
 
 
 

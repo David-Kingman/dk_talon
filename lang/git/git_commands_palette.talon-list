@@ -1,5 +1,5 @@
 list: user.git_commands_palette
-language: En
+language: en
 -
 
 # Show diffs
@@ -8,11 +8,13 @@ show everything: "Git: Open All Changes"
 hide: "Git: Open File"
 
 # Stage changes
-stage all: "Git: Stage All Changes"
+stage: "Git: Stage Changes"
+stage everything: "Git: Stage All Changes"
+reverse stage: "Git: Unstage Changes"
 
 # Commit
 commit: "Git: Commit"
-commit all: "Git: Commit All"
+commit everything: "Git: Commit All"
 
 # Push and pull
 pull: "Git: Pull"

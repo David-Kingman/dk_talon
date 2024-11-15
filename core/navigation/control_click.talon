@@ -3,4 +3,4 @@ mode: command
 -
 
 # Toggle holding down ctrl
-coin: user.control_toggle()
+# coin: user.control_toggle()

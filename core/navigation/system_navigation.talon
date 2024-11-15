@@ -11,6 +11,9 @@ switch:
 # Open clipboard manager
 clip: key(super-v)
 
+# Get computer name
+# test: user.get_computer_name()
+
 # Restart computer
 restart computer:
     mouse_move(31, 30)

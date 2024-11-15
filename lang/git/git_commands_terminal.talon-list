@@ -15,6 +15,9 @@ stage all: git stage .
 # Committing
 commit: git commit -m
 
+# Restoring
+restore: git restore 
+
 # Branching
 change branch: git checkout
 new branch: git checkout -b
