@@ -7,6 +7,10 @@ list files: ls
 change folder: cd
 status: git status
 remove file: git rm
+move: mv
+
+# Fetching
+fetch: git fetch
 
 # Staging
 stage: git stage
@@ -19,6 +23,7 @@ commit: git commit -m
 restore: git restore 
 
 # Branching
+stash: git stash
 change branch: git checkout
 new branch: git checkout -b
 show branches: git branch
