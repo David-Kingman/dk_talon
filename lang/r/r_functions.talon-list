@@ -15,6 +15,12 @@ as numeric: as.numeric
 as integer: as.integer
 as factor: as.factor
 as date: as.Date
+is character: is.character
+is double: is.double
+is numeric: is.numeric
+is integer: is.integer
+is factor: is.factor
+is date: is.Date
 factor
 levels
 check encoding: validUTF8
@@ -41,9 +47,15 @@ list objects: ls
 remove: rm
 number rose: nrow
 help
+# file system
+dear create: dir.create
+dear remove: dir.remove
+cat
+file exists: file.exists
+file remove: file.remove
 # statistics
 min
-mean
+average: mean
 median
 max
 length
@@ -192,9 +204,20 @@ dense rank: dense_rank
 mostl: mostl
 group cols: group_cols
 group map: group_map
-group modify: group_modify
+group modify: gro18up_modify
 group walk: group_walk
 group trim: group_trim
+# tidyselect
+starts with: starts_with
+ends with: ends_with
+contains
+matches
+numeric range: num_range
+all of: all_of
+any of: any_of
+everything
+last column: last_col
+where
 # ggplot2
 GG plot: ggplot
 aesthetics: aes
@@ -267,6 +290,8 @@ I map dataframe: imap_dfr
 map two: map2
 I map: imap
 P map: pmap
+# glue
+glue
 # rrapply
 rare apply: rrapply
 # stringr

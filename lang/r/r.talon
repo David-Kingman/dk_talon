@@ -7,33 +7,32 @@ app: vscode
 
 # Package commands
 add package {user.r_packages}:
-    start = 'install.packages("' + r_packages
-    end = start + '")'
-    insert(end)
+    insert('install.packages("{r_packages}")')
+    key(enter)
+
+remove package {user.r_packages}:
+    insert('remove.packages("{r_packages}")')
+    key(enter)
 
 add VSCode packages: 
     insert('renv::install(c("languageserver", "jsonlite", "httpgd"))')
     key(enter)
 
-library {user.r_packages}:
-    start = "library(" + r_packages
-    end = start + ")"
-    insert(end)
+install lamda: insert("devtools::install_git('https://DELmodel@dev.azure.com/DELmodel/LMDAR/_git/LMDAR', git = 'external', build_vignettes = TRUE")
+
+library {user.r_packages}: insert('library({r_packages})')
 
 install {user.r_packages}:
-    start = 'renv::install("' + r_packages
-    end = start + '")'
-    insert(end)
+    insert('renv::install("{r_packages}")')
+    key(enter)
 
 get version {user.r_packages}: 
-    package = 'packageVersion("{r_packages}")'
-    insert(package)
+    insert('packageVersion("{r_packages}")')
+    key(enter)
 
 # List commands
 funk {user.r_functions}: insert(r_functions + "(")
 
-funk anonymous: "\(x) "
- 
 pam {user.r_function_arguments}: insert(r_function_arguments + " = ")
 
 {user.r_symbols}: 
@@ -72,6 +71,13 @@ clear everything: insert("rm(list = ls())")
 
 print all: insert("|> print(n = Inf)")
  
-new function:
-    insert("function() {}")
-    key(left left left left)
+function ex:
+    insert("function(x) {}")
+    key(left enter enter enter up tab tab)
+
+function why:
+    insert("function(x, y) {}")
+    key(left enter enter enter up tab tab)
+
+anonymous ex: "\(x) "
+anonymous why: "\(x, y) "

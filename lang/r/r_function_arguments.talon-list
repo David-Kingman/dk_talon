@@ -6,6 +6,8 @@ data
 ex: x
 why: y
 en: n
+buy: .by
+names: .names
 fill
 position: pos
 name
