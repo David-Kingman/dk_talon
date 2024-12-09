@@ -17,14 +17,14 @@ hash: #
 at sign: @
 ampersand: &
 pipe: |
-# tile: ~  
+tron: ~  
 bang: !
 underscore: _
 # Quotes
 single quote: "'"
 dub quote: '"'
 double quote: '"'
-quad: '"'
+queer: '"'
 apostrophe: "'"
 back tick: "`"
 # Maths
@@ -53,4 +53,3 @@ right square: ]
 # Currencies
 benjamin: $
 sterling: £
- 
