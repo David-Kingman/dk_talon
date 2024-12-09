@@ -5,7 +5,7 @@ mode: command
 
 # Abbreviations
 crate: insert(': ')
-cod: insert("ctrl")
+chip: insert("ctrl")
 
 # Line spacing commands
 new graph: key(enter enter)
@@ -103,14 +103,27 @@ brack <user.prose>$:
     insert(prose)
     insert(")")
 
+# Wrap selected text in quotes
+quote <user.prose_range>$: 
+    user.perform_ocr_action("select", "", prose_range)
+    user.formatters_reformat_selection("DOUBLE_QUOTED_STRING")
+
+# Add apostrophe after text
+possess <user.timestamped_prose>$: 
+    user.move_text_cursor_to_word(timestamped_prose, "after")
+    insert("'s")
+
 # Select text
-grab <user.prose_range>$: user.perform_ocr_action("select", "", prose_range)
+take <user.prose_range>$: user.perform_ocr_action("select", "", prose_range)
 
 # Go before text
 bravo <user.timestamped_prose>$: user.move_text_cursor_to_word(timestamped_prose, "before")
 
 # Go after text
 alpha <user.timestamped_prose>$: user.move_text_cursor_to_word(timestamped_prose, "after")
+
+# Homophones
+swap <user.timestamped_prose>$: user.change_text_homophone(timestamped_prose)
 
 # Undo
 nope: edit.undo()
