@@ -15,6 +15,10 @@ new window: key(ctrl-shift-n)
 # Manage tabs
 tab close: key(ctrl-f4)
 
+tab fresh: 
+    key(ctrl-w)
+    key(ctrl-shift-t)
+
 # Search files
 find [<user.text>]:
     key(ctrl-p)
@@ -59,7 +63,9 @@ raid <number>:
 
 file raid: 
     key(ctrl-a)
+    sleep(1s)
     key(ctrl-enter)
+    sleep(1s)
     key(escape)
 
 file source: key(ctrl-shift-s)

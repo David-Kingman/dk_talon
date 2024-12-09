@@ -44,6 +44,15 @@ dent:
     insert(".")
     key(enter)
 
+steel: 
+    insert("?")
+    key(enter)
+
+pool:
+    insert(": ")
+    key(ctrl-v)
+    key(enter)
+
 # Useful text
 thanks: 
     insert("Thank you")

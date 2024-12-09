@@ -9,6 +9,9 @@ tag(): user.tabs
 # Window management
 new project: key(ctrl-shift-n)
 
+# Switch between open windows in VSCode (number refers to position on the taskbar)
+flick: key(ctrl-super-5)
+
 # Search files
 find [<user.text>]:
     user.vscode("workbench.action.quickOpen")
