@@ -25,6 +25,7 @@ single quote: "'"
 dub quote: '"'
 double quote: '"'
 queer: '"'
+twin: "'"
 apostrophe: "'"
 back tick: "`"
 # Maths
@@ -35,12 +36,13 @@ plus: +
 star: *
 percent: %
 caret: ^
-greater than: >
-less than: <
+right arrow: >
+left arrow: <
 # Brackets
 paren: (
 curly: {
 square: [
+box: [
 angle: <
 L paren: (
 right paren: )
