@@ -9,7 +9,7 @@ bolt <number>: user.tab_jump(number)
 able: app.tab_open()
 
 # Tab close
-# cane: user.tab_close_wrapper()
+(tab|tamp|dame) (close|clothes): user.tab_close_wrapper()
 
 # Tab last
 best: app.tab_previous()
