@@ -1,0 +1,23 @@
+list: user.programming_objects
+language: en
+-
+
+# Datasets
+diamonds
+women
+
+# Variables
+height
+weight
+carrot: carat
+cut
+color
+clarity
+depth
+table
+price
+x
+y
+z
+
+

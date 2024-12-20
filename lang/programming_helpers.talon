@@ -5,6 +5,9 @@ mode: command
 # Add file extension
 dot {user.file_extensions}: insert("." + file_extensions)
 
+# Refer to an object or variable
+object {user.programming_objects}: insert(programming_objects)
+
 # Get R help
 help [{user.r_packages}] [{user.r_functions}] [<user.prose>]$:
     default_package = r_packages or ""
@@ -22,6 +25,11 @@ paste help:
 
 pack {user.r_packages}: insert(r_packages)
 function {user.r_functions}: insert(r_functions)
+
+get clipper: 
+    insert("clip_object_names <- function(x){{ writeClipboard(names(x)) }}")
+    sleep(500ms)
+    key(enter)
 
 # Get VSCode help
 code [<user.prose>]$:

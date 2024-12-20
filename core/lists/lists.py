@@ -12,6 +12,7 @@ mod.list("address_book", "My work email addresses")
 mod.list("names", "Useful names and aliases")
 mod.list("file_extensions", "File extensions")
 mod.list("vscode_terminal_commands", "Commands for interacting with terminals in VSCode")
+mod.list("programming_objects", "A list for storing the names of objects used in coding")
 
 # R lists
 mod.list("r_packages", "R language code libraries")
