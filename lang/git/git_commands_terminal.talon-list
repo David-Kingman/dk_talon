@@ -14,6 +14,7 @@ fetch: git fetch
 
 # Staging
 stage: git stage
+add: git stage
 stage all: git stage .
 
 # Committing
