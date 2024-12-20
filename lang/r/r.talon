@@ -81,3 +81,10 @@ function why:
 
 anonymous ex: "\(x) "
 anonymous why: "\(x, y) "
+
+# Equalities Explorer functions
+stop dashboard: insert("call_docker('stop ee_app')")
+get functions: insert("source('R/server_functions.R')")
+rebuild image: insert("reload_dashboard(clear_cache = True)")
+update user guide: insert("quarto::quarto_render('R/equalities_explorer_user_guide_page.qmd')")
+get names: insert("clip_object_names(")

@@ -1,6 +1,7 @@
 list: user.r_function_arguments
 -
 
+# general
 package
 data
 ex: x
@@ -11,18 +12,28 @@ names: .names
 fill
 position: pos
 name
-recursive
 dot default: .default
 levels
 labels
 weights
 var type: vartype
+
+# tidyr
 names from: names_from
 values from: values_from
 values fill: values_fill
 names too: names_to
 values too: values_to
 
+# list.files
+path 
+all files: all.files 
+full names: full.names 
+recursive 
+ignore case: ignore.case 
+include directories: include.dirs 
+
+# ggplot
 title
 legend title: legend.title
 legend position: legend.position
@@ -39,13 +50,13 @@ axis text y: axis.text.y
 axis text x: axis.text.x
 axis title ex: axis.title.x
 axis title why: axis.title.y
-
 color
 size
 family
 angle
 line height: lineheight
 
+# ggsave
 file name: filename
 units
 width

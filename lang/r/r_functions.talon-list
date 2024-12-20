@@ -47,6 +47,7 @@ list objects: ls
 remove: rm
 number rose: nrow
 help
+sleep: Sys.sleep
 # file system
 dear create: dir.create
 dear remove: dir.remove
@@ -368,7 +369,8 @@ read RTF: read_rtf
 use linter: use_lintr
 # custom
 dash: reload_dashboard
-stop: "call_docker('stop ee_app')"
+# quarto
+quarto render: quarto_render
 
 
 
