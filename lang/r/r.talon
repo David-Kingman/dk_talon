@@ -15,7 +15,7 @@ remove package {user.r_packages}:
     key(enter)
 
 add VSCode packages: 
-    insert('renv::install(c("languageserver", "jsonlite", "httpgd"))')
+    insert('install.packages(c("languageserver", "jsonlite", "httpgd"))')
     key(enter)
 
 install lamda: insert("devtools::install_git('https://DELmodel@dev.azure.com/DELmodel/LMDAR/_git/LMDAR', git = 'external', build_vignettes = TRUE")
