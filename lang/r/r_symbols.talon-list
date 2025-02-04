@@ -5,6 +5,7 @@ assign: <-
 is in: %in%
 equals: =
 is equal: ==
+is not equal: !=
 tile: ~
 plus: +
 minus: -
@@ -17,5 +18,5 @@ true: TRUE
 false: FALSE
 greater than: >
 less than: <
-R pipe: |>
+rare pipe: |>
 infinity: Inf

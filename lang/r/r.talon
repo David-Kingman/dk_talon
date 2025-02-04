@@ -45,8 +45,9 @@ sign {user.r_symbols}: insert(r_symbols)
 # Special R symbols/code blocks
 chain:
     key(end)
-    key(space)
-    "|>"
+    sleep(100ms)
+    insert(" |>")
+    sleep(100ms)
     key(enter)
 
 mag pipe:
@@ -69,18 +70,33 @@ after: insert(", ")
 
 clear everything: insert("rm(list = ls())")
 
-print all: insert("|> print(n = Inf)")
+print everything: insert("print(n = Inf)")
  
 function ex:
     insert("function(x) {}")
-    key(left enter enter enter up tab tab)
+    sleep(100ms)
+    key(left enter)
+    sleep(100ms)
+    insert("x |>")
+    sleep(100ms)
+    key(enter)
 
 function why:
     insert("function(x, y) {}")
-    key(left enter enter enter up tab tab)
+    sleep(100ms)
+    key(left enter)
+    sleep(100ms)
+    insert("x |>")
+    sleep(100ms)
+    key(enter)
 
 anonymous ex: "\(x) "
 anonymous why: "\(x, y) "
+
+dot data: insert(".data[[")
+as survey design: insert("as_survey_design(weights = ")
+no confidence: insert("vartype = NULL")
+confidence interval: insert("vartype = 'ci'")
 
 # Equalities Explorer functions
 stop dashboard: insert("call_docker('stop ee_app')")

@@ -282,15 +282,83 @@ as tibble: as_tibble
 as tibble row: as_tibble_row
 as tibble col: as_tibble_col
 # purrr
-set names: set_names
-map character: map_chr
-map data frame: map_dfr
+map
+map logical: map_lgl
+map integer: map_int
 map double: map_dbl
-map: map
-I map dataframe: imap_dfr
+map character: map_chr
+map vector: map_vec
+walk
+as mapper: as_mapper
+modify
 map two: map2
+pee map: pmap
+eye map: imap
+map if: map_if
+map at: map_at
+map depth: map_depth
+modify depth: modify_depth
+map two logical: map2_lgl
+map two integer: map2_int
+map two double: map2_dbl
+map to character: map2_chr
+map to vector: map2_vec
+walk to: walk2
+pe map: pmap
+pe map logical: pmap_lgl
+pe map integer: pmap_int
+pe map double: pmap_dbl
+pe map character: pmap_chr
+pe map vector: pmap_vec
+pea walk: pwalk
+modify
+modify if: modify_if
+modify at: modify_at
+modify two: modify2
+I modify: imodify
+modify tree: modify_tree
 I map: imap
-P map: pmap
+I map logical: imap_lgl
+I map character: imap_chr
+I map integer: imap_int
+eye map double: imap_dbl
+I walk: iwalk
+el map: lmap
+el map if: lmap_if
+el map at: lmap_at
+detect
+detect index: detect_index
+every
+some
+none
+has element: has_element
+head while: head_while
+tail while: tail_while
+keep
+discard
+compact
+keep at: keep_at
+discard at: discard_at
+pluck
+pluck exists: pluck_exists
+chuck
+pluck depth: pluck_depth
+modify in: modify_in
+assign in: assign_in
+attribute getter: attr_getter
+accumulate
+accumulate too: accumulate2
+list se: list_c
+list sea bind: list_cbind
+list are bind: list_rbind
+list flatten: list_flatten
+list assign: list_assign
+list modify: list_modify
+list merge: list_merge
+list simplify: list_simplify
+list transpose: list_transpose
+reduce
+reduce to: reduce2
 # glue
 glue
 # rrapply
@@ -349,9 +417,24 @@ zap widths: zap_widths
 # here
 here
 # srvyr
+as survey: as_survey
 as survey design: as_survey_design
-survey total: survey_total
+as survey rep: as_survey_rep
+as survey two phase: as_survey_twophase
+cascade
+interact
 survey mean: survey_mean
+survey prop: survey_prop
+survey total: survey_total
+survey quantile: survey_quantile
+survey median: survey_median
+survey ratio: survey_ratio
+survey tally: survey_tally
+survey count: survey_count
+survey var: survey_var
+survey deviation: survey_sd
+survey correlation: survey_corr
+unweighted
 # scales
 label wrap: label_wrap
 # Shiny
@@ -371,7 +454,6 @@ use linter: use_lintr
 dash: reload_dashboard
 # quarto
 quarto render: quarto_render
-
 
 
 
