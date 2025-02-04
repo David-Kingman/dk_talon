@@ -15,3 +15,17 @@ replace <user.cursorless_target> with <user.text>$:
 raid <user.cursorless_target>$:
     user.cursorless_command("setSelection", cursorless_target)
     key(ctrl-enter)
+
+rent <user.cursorless_target>$:
+    user.cursorless_command("setSelection", cursorless_target)
+    sleep(500ms)
+    edit.copy()
+    sleep(500ms)
+    key(escape)
+    sleep(500ms)
+    user.switcher_focus("remote desktop")
+    sleep(500ms)
+    edit.paste()
+    sleep(500ms)
+    key(enter)
+    sleep(500ms)
