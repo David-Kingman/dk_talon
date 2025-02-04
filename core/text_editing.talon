@@ -112,7 +112,7 @@ quote <user.prose_range>$:
 possess <user.timestamped_prose>$: 
     user.move_text_cursor_to_word(timestamped_prose, "after")
     insert("'s")
-
+    
 # Select text
 take <user.prose_range>$: user.perform_ocr_action("select", "", prose_range)
 
@@ -190,3 +190,10 @@ squint <user.prose>$:
     insert("[")
     user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
     insert("]")
+    
+# text followed by colon
+push <user.prose>$:
+    user.add_phrase_to_history(prose)
+    insert(prose)
+    insert(": ")
+
