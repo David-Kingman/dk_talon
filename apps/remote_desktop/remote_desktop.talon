@@ -2,6 +2,7 @@ os: windows
 language: en
 mode: command
 app: remote desktop
+app: vscode
 -
 
 # These commands are for using VSCode on Skynet without access to the command server
