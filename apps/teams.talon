@@ -38,6 +38,7 @@ go chat {user.address_book}:
 
 new line: key(shift-enter)
 attach file: key(ctrl-o)
+code block: key(ctrl-alt-shift-b)
 
 # Useful editing commands
 dent: 
