@@ -1,0 +1,6 @@
+list: user.reformatter
+language: en
+-
+
+# cap: CAPITALIZE
+unformat: REMOVE_FORMATTING
