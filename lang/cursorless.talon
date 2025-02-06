@@ -15,6 +15,7 @@ replace <user.cursorless_target> with <user.text>$:
 raid <user.cursorless_target>$:
     user.cursorless_command("setSelection", cursorless_target)
     key(ctrl-enter)
+    key(escape)
 
 rent <user.cursorless_target>$:
     user.cursorless_command("setSelection", cursorless_target)
