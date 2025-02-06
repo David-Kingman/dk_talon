@@ -98,6 +98,8 @@ as survey design: insert("as_survey_design(weights = ")
 no confidence: insert("vartype = NULL")
 confidence interval: insert("vartype = 'ci'")
 
+add package football: insert("devtools::install_github('JaseZiv/worldfootballR')")
+
 # Equalities Explorer functions
 stop dashboard: insert("call_docker('stop ee_app')")
 get functions: insert("source('R/server_functions.R')")
