@@ -4,6 +4,7 @@ mod = Module()
 
 # General lists
 mod.list("letter", "The spoken phonetic alphabet")
+mod.list("vocabulary", "My custom vocabulary|")
 mod.list("website", "Custom user websites")
 mod.list("punctuation", "Custom keys for use with dictation commands")
 mod.list("symbol_key", "Custom keys for use outside of dictation commands")
