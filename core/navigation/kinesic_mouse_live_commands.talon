@@ -15,3 +15,11 @@ key(ctrl-shift-f8): user.mouse_toggle()
 eye mouse: key(ctrl-alt-2)
 full mouse: key(ctrl-alt-3)
 scroll mouse: key(ctrl-alt-4)
+
+# Restart mouse
+mouse restart:
+    key(super-4)
+    sleep(1s)
+    key(alt-f4)
+    sleep(1s)
+    key(super-4)
