@@ -60,6 +60,8 @@ text reader: textreadr
 # Containers
 Azure Containers: AzureContainers
 Azure utilities: AzureRMR
+# Football
+world football rare: worldfootballR
 # VSCode R
 language server: languageserver
 Jason light: jsonlite
