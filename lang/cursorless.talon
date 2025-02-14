@@ -24,7 +24,7 @@ rent <user.cursorless_target>$:
     sleep(500ms)
     key(escape)
     sleep(500ms)
-    user.switcher_focus("remote desktop")
+    user.switcher_focus("sky")
     sleep(500ms)
     edit.paste()
     sleep(500ms)
