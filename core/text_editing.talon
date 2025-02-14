@@ -127,6 +127,12 @@ bravo <user.timestamped_prose>$: user.move_text_cursor_to_word(timestamped_prose
 # Go after text
 alpha <user.timestamped_prose>$: user.move_text_cursor_to_word(timestamped_prose, "after")
 
+# Revise onscreen text including first and last words
+revise <user.timestamped_prose_only>$: user.revise_text(timestamped_prose_only)
+
+# Revise onscreen text from the first word until the cursor
+ride <user.timestamped_prose_only>$: user.revise_text_starting_with(timestamped_prose_only)
+
 # Homophones
 swap <user.timestamped_prose>$: user.change_text_homophone(timestamped_prose)
 
