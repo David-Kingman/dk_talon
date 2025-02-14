@@ -82,7 +82,7 @@ high <user.prose>$:
     insert(",")
     key(enter enter)
 
-low <user.prose>$: 
+jump <user.prose>$: 
     key(tab tab tab tab)
     user.add_phrase_to_history(prose)
     insert("Hi ")
