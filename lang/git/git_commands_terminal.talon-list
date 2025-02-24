@@ -45,5 +45,6 @@ pull: git pull
 
 # Personal git commands
 words: 'git add core/lists/vocabulary.talon-list csv/words_to_replace.csv && git commit -m "Updated custom vocabulary."'
+minor changes: 'git add . && git commit -am "Minor changes."'
 my repo: cd dk_talon
 reverse: cd ..
