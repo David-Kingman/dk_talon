@@ -9,6 +9,9 @@ status: git status
 remove file: git rm
 move: mv
 
+# Cloning
+clone: git clone
+
 # Fetching
 fetch: git fetch
 
@@ -36,3 +39,8 @@ merge abort: git merge --abort
 # Push and pull
 push: git push 
 pull: git pull
+
+# Personal git commands
+words: 'git add core/lists/vocabulary.talon-list csv/words_to_replace.csv && git commit -am "Updated custom vocabulary."'
+my repo: cd dk_talon
+reverse: cd ..

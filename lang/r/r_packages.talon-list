@@ -44,6 +44,7 @@ show text: showtext
 haven
 arrow
 open excel: openxlsx
+read excel: readxl
 collapse
 rare apply: rrapply
 # Other
