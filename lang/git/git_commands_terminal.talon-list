@@ -21,7 +21,10 @@ add: git stage
 stage all: git stage .
 
 # Committing
-commit: git commit -m
+commit: 'git commit -m ""'
+
+# Stage and commit all modified files
+commit everything: 'git add . && git commit -am ""'
 
 # Restoring
 restore: git restore 
@@ -41,6 +44,6 @@ push: git push
 pull: git pull
 
 # Personal git commands
-words: 'git add core/lists/vocabulary.talon-list csv/words_to_replace.csv && git commit -am "Updated custom vocabulary."'
+words: 'git add core/lists/vocabulary.talon-list csv/words_to_replace.csv && git commit -m "Updated custom vocabulary."'
 my repo: cd dk_talon
 reverse: cd ..
