@@ -2,7 +2,7 @@ os: windows
 mode: command
 -
 
-# Expressions I can comfortably make:
+# Expressions I can make easily:
 # smile
 # blink
 # raise_eyebrows
@@ -23,6 +23,10 @@ face(raise_eyebrows:stop): user.stop_raise_eyebrows_job()
 # mouth_press_right - scroll down
 face(mouth_press_right:start): user.trigger_mouth_press_right_job()
 face(mouth_press_right:stop): user.stop_mouth_press_right_job()
+
+# mouth_pucker - toggle mouse mode
+face(mouth_pucker:start): user.trigger_mouth_pucker_job()
+face(mouth_pucker:stop): user.stop_mouth_pucker_job()
 
 # smile
 face(smile:start): user.trigger_smile_job()

@@ -14,13 +14,13 @@ class Actions:
         global mouth_press_right_start_time, mouth_press_right_job, mouth_press_right
         mouth_press_right = True
         mouth_press_right_start_time = time.time()
-        mouth_press_right_job = cron.interval("100ms", actions.user.mouth_press_right_helper)
+        mouth_press_right_job = cron.interval("50ms", actions.user.mouth_press_right_helper)
 
     def mouth_press_right_helper():
         """Trigger an action after expression has been held for a certain interval of time"""
         mouth_press_right_current_time = time.time()
         mouth_press_right_time_difference = mouth_press_right_current_time -  mouth_press_right_start_time
-        if mouth_press_right_time_difference > 1.5:
+        if mouth_press_right_time_difference > 1:
             # print("Mouth Press Right")
             actions.user.mouse_scroll_down()
 
