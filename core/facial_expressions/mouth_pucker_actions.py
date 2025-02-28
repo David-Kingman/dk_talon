@@ -23,6 +23,7 @@ class Actions:
         if mouth_pucker_time_difference > 0.5:
             # print("Mouth Pucker")
             actions.user.mouse_toggle()
+            actions.user.stop_mouth_pucker_job()
 
     def stop_mouth_pucker_job():
         """Stop triggering an action in response to a mouth_pucker"""
