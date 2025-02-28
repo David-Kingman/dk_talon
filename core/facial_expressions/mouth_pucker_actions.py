@@ -20,7 +20,7 @@ class Actions:
         """Trigger an action after expression has been held for a certain interval of time"""
         mouth_pucker_current_time = time.time()
         mouth_pucker_time_difference = mouth_pucker_current_time - mouth_pucker_start_time
-        if mouth_pucker_time_difference > 0.5:
+        if mouth_pucker_time_difference > 1:
             # print("Mouth Pucker")
             actions.user.mouse_toggle()
             actions.user.stop_mouth_pucker_job()
