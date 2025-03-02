@@ -20,10 +20,11 @@ class Actions:
         """Trigger an action after expression has been held for a certain interval of time"""
         smile_current_time = time.time()
         smile_time_difference = smile_current_time -  smile_start_time
-        if smile_time_difference > 2:
+        if smile_time_difference > 3:
             # print("Smile")
-            actions.user.switcher_menu()
+            actions.user.mouse_toggle()
             actions.user.stop_smile_job()
+            actions.app.notify("Mouse Changed")
 
     def stop_smile_job():
         """Stop triggering an action in response to a smile"""
