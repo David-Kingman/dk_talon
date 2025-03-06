@@ -24,10 +24,13 @@ face(raise_eyebrows:stop): user.stop_raise_eyebrows_job()
 # face(mouth_press_right:start): user.trigger_mouth_press_right_job()
 # face(mouth_press_right:stop): user.stop_mouth_press_right_job()
 
-# mouth_pucker - toggle mouse mode
+# mouth_pucker - scroll down
 face(mouth_pucker:start): user.trigger_mouth_pucker_job()
 face(mouth_pucker:stop): user.stop_mouth_pucker_job()
 
-# smile - open window management
+# smile - mouse toggle
 face(smile:start): user.trigger_smile_job()
 face(smile:stop): user.stop_smile_job()
+
+# Test facial expressions
+# face(gaze_xy): print("gaze {x} {y}")

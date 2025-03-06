@@ -22,7 +22,7 @@ class Actions:
         raise_eyebrows_time_difference = raise_eyebrows_current_time -  raise_eyebrows_start_time
         if raise_eyebrows_time_difference > 0.5:
             # print("Raise Eyebrows")
-            actions.user.mouse_scroll_up()
+            actions.user.mouse_scroll_up(amount = 0.5)
 
     def stop_raise_eyebrows_job():
         """Stop triggering an action in response to a raise_eyebrows"""
