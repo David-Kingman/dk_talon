@@ -22,7 +22,7 @@ class Actions:
         mouth_pucker_time_difference = mouth_pucker_current_time - mouth_pucker_start_time
         if mouth_pucker_time_difference > 0.5:
             # print("Mouth Pucker")
-            actions.user.mouse_scroll_down(amount = 0.5)
+            actions.user.mouse_scroll_down(amount = 0.25)
 
     def stop_mouth_pucker_job():
         """Stop triggering an action in response to a mouth_pucker"""

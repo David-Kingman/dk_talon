@@ -29,8 +29,8 @@ face(mouth_pucker:start): user.trigger_mouth_pucker_job()
 face(mouth_pucker:stop): user.stop_mouth_pucker_job()
 
 # smile - mouse toggle
-face(smile:start): user.trigger_smile_job()
-face(smile:stop): user.stop_smile_job()
+# face(smile:start): user.trigger_smile_job()
+# face(smile:stop): user.stop_smile_job()
 
 # Test facial expressions
 # face(gaze_xy): print("gaze {x} {y}")
