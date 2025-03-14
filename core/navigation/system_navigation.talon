@@ -40,7 +40,7 @@ shutdown computer:
     mouse_click(0)
 
 # Launch Skynet
-launch Skynet: key(ctrl-super-7)
+launch Skynet: key(ctrl-super-9)
 
 # Disconnects Skynet
 disconnect skynet:
