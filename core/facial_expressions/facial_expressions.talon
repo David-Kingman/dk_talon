@@ -1,5 +1,4 @@
 os: windows
-mode: command
 -
 
 # Expressions I can make easily:
@@ -18,7 +17,7 @@ mode: command
 # Test facial expressions
 # face(gaze_xy): print("gaze {x} {y}")
  
-# raise_eyebrows - scroll up 
+# raise_eyebrows - scroll up ()
 face(raise_eyebrows:start): user.trigger_raise_eyebrows_job()
 face(raise_eyebrows:stop): user.stop_raise_eyebrows_job()
 
