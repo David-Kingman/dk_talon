@@ -55,3 +55,13 @@ disconnect skynet:
     mouse_move(113, 1205)
     sleep(3s)
     mouse_click(0)
+
+# Quit talon
+^quit talon$:
+    mouse_move(3508, 23)
+    sleep(3s)
+    mouse_click(0)
+    sleep(3s)    
+    mouse_move(3594, 378)
+    sleep(3s)
+    mouse_click(0)
