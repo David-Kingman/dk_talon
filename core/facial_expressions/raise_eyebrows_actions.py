@@ -19,10 +19,10 @@ class Actions:
     def raise_eyebrows_helper():
         """Trigger an action after expression has been held for a certain interval of time"""
         raise_eyebrows_current_time = time.time()
-        raise_eyebrows_time_difference = raise_eyebrows_current_time -  raise_eyebrows_start_time
+        raise_eyebrows_time_difference = raise_eyebrows_current_time - raise_eyebrows_start_time
         if raise_eyebrows_time_difference > 0.5:
             # print("Raise Eyebrows")
-            actions.user.mouse_scroll_up(amount = 0.5)
+            actions.user.mouse_scroll_up(amount = raise_eyebrows_time_difference)
 
     def stop_raise_eyebrows_job():
         """Stop triggering an action in response to a raise_eyebrows"""
