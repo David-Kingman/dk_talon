@@ -52,7 +52,7 @@ file receipts: key(ctrl-shift-9)
 file civil service: key(ctrl-shift-8)
 file health: key(ctrl-shift-7)
 file money: key(ctrl-shift-6)
-# move jobs: key(ctrl-shift-5)
+move jobs: key(ctrl-shift-5)
 
 # Chose email address
 {user.address_book} email:
