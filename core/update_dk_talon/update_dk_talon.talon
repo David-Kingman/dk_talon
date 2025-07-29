@@ -8,6 +8,7 @@ mode: command
 ^update cursorless$: user.update_custom_filesets("cursorless-talon")
 ^update roku$: user.update_custom_filesets("roku-talon-shared")
 ^update ui elements$: user.update_custom_filesets("talon-ui-elements")
+^update ai tools$: user.update_custom_filesets("talon-ai-tools")
 
 # Update words_to_replace files
 ^update words$: 

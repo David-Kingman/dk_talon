@@ -8,6 +8,7 @@ language: en
 full stop: .
 dot: .
 comma: ,
+commas: ,
 coma: ,
 colon: :
 semicolon: ;

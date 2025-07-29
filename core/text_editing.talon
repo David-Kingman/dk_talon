@@ -108,11 +108,6 @@ quote <user.prose_range>$:
     user.perform_ocr_action("select", "", prose_range)
     user.formatters_reformat_selection("DOUBLE_QUOTED_STRING")
 
-# Title selected text
-stand <user.prose_range>$: 
-    user.perform_ocr_action("select", "", prose_range)
-    user.formatters_reformat_selection("CAPITALIZE_ALL_WORDS")
-
 # Add apostrophe after text
 possess <user.timestamped_prose>$: 
     user.move_text_cursor_to_word(timestamped_prose, "after")
@@ -134,7 +129,9 @@ revise <user.timestamped_prose_only>$: user.revise_text(timestamped_prose_only)
 ride <user.timestamped_prose_only>$: user.revise_text_starting_with(timestamped_prose_only)
 
 # Homophones
-swap <user.timestamped_prose>$: user.change_text_homophone(timestamped_prose)
+swap <user.timestamped_prose>$:
+    user.change_text_homophone(timestamped_prose)
+    insert(" ")
 
 # Undo
 nope: edit.undo()
@@ -189,8 +186,8 @@ bail <user.prose>$:
     insert("# ")
     user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
 
-# bullets
-bullet <user.prose>$: 
+# item
+item <user.prose>$: 
     user.add_phrase_to_history(prose)
     insert("- ")
     user.insert_formatted(prose, "CAPITALIZE_FIRST_WORD")
